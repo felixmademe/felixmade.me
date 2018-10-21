@@ -9,6 +9,7 @@ new fullpage('#fullpage', {
     parallax: true,
     responsiveWidth: 700,
     anchors: ['home', 'intro', 'jobs', 'about', 'contact', 'footer'],
+    sectionsColor: ['#FFF', '#FFF', '#FFF', '#7BED9F', '#FFF', '#3E3E3E'],
     parallax: true,
     onLeave: function(origin, destination, direction){
         console.log("Leaving section" + origin.index);

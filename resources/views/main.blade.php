@@ -75,7 +75,6 @@
             </div>
         </div>
         <div class="section about">
-            <div class="background"></div>
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <h2>
@@ -114,13 +113,14 @@
             </div>
         </div>
         <div class="section footer">
-            <div class="background"></div>
             <div class="copyright">
                 <p class="text-center">
                     copyright © 2018 felix wetell
                 </p>
             </div>
             <div class="row text-center">
+                <div class="col">
+
                 <div class="col-12 col-md-4">
                     <a href="https://twitter.com/felixwetell">
                         <img data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
@@ -137,6 +137,7 @@
                     </a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <div class="arrowUp"></div>
