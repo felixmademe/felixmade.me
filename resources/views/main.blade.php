@@ -9,7 +9,7 @@
                     <div id="particles-js"></div>
                     <div class="col-12">
                         <div class="col col-sm-2 mx-auto">
-                            <img src="{{ asset( '/img/logo.svg' ) }}" alt="Felix Wetell logo">
+                            <img src="{{ asset( '/public/img/logo.svg' ) }}" alt="Felix Wetell logo">
                             <h1>
                                 felix
                             </h1>
@@ -70,12 +70,12 @@
                 {{-- TODO: Add "company" name and small description like the Sketch --}}
                 <div class="slide" id="oldPortfolio">
                     <a href="http://felixwetell.azurewebsites.net/" target="_blank">
-                        <img data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                        <img data-src="{{ asset( '/public/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
                     </a>
                 </div>
                 <div class="slide" id="gamethrill">
                     <a href="https://gamethrill.io/news/articles" target="_blank">
-                        <img data-src="{{ asset( '/img/gamethrill.png' ) }}" alt="Gamethrill articles page">
+                        <img data-src="{{ asset( '/public/img/gamethrill.png' ) }}" alt="Gamethrill articles page">
                     </a>
                 </div>
             </div>
@@ -133,17 +133,17 @@
             <div class="row text-center">
                 <div class="col-12 col-md-4">
                     <a href="https://twitter.com/felixwetell">
-                        <img data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
+                        <img data-src="{{ asset( '/public/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="https://github.com/felixwetell">
-                        <img data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
+                        <img data-src="{{ asset( '/public/img/github.svg' ) }}" alt="White GitHub logo">
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="https://www.linkedin.com/in/felix-wetell/">
-                        <img data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
+                        <img data-src="{{ asset( '/public/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
                     </a>
                 </div>
             </div>
