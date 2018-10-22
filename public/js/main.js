@@ -5,15 +5,10 @@ particlesJS.load('particles-js', '../particles.json', function() {
 
 new fullpage('#fullpage', {
 	//options here
-    navigation: true,
-    parallax: true,
-    responsiveWidth: 700,
+    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+    navigation: false,
     anchors: ['home', 'intro', 'jobs', 'about', 'contact', 'footer'],
     sectionsColor: ['#FFF', '#FFF', '#FFF', '#7BED9F', '#FFF', '#3E3E3E'],
-    parallax: true,
-    onLeave: function(origin, destination, direction){
-        console.log("Leaving section" + origin.index);
-    },
 });
 
 $("#changing-text").Morphext({
