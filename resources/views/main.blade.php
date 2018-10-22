@@ -4,20 +4,22 @@
 
     <div class="" id="fullpage">
         <div class="section active hero">
-            <div class="row">
-                <div id="particles-js"></div>
-                <div class="col-12">
-                    <div class="col col-sm-2 mx-auto">
-                        <img src="{{ asset( '/img/logo.svg' ) }}" alt="Felix Wetell logo">
-                        <h1>
-                            felix
-                        </h1>
-                        <h1>
-                            made
-                        </h1>
-                        <h1>
-                            <span id="changing-text" class="green">me, this, one, what, who</span>
-                        </h1>
+            <div class="container">
+                <div class="row">
+                    <div id="particles-js"></div>
+                    <div class="col-12">
+                        <div class="col col-sm-2 mx-auto">
+                            <img src="{{ asset( '/img/logo.svg' ) }}" alt="Felix Wetell logo">
+                            <h1>
+                                felix
+                            </h1>
+                            <h1>
+                                made
+                            </h1>
+                            <h1>
+                                <span id="changing-text" class="green">me, this, one, what, who</span>
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,18 +83,20 @@
         <div class="section about">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <h2>
-                            felix
-                            <br>
-                            <span>wetell</span>
-                        </h2>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <p class="mt-4">
-                            hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
-                            I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
-                        </p>
+                    <div class=" col-12">
+                        <div class="col-12 col-lg-6">
+                            <h2>
+                                felix
+                                <br>
+                                <span>wetell</span>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <p class="mt-4">
+                                hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
+                                I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
