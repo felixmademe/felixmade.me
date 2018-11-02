@@ -10,10 +10,10 @@
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css" />
-		<link rel="stylesheet" href="{{ asset( '/public/css/main.min.css' ) }}">
+		<link rel="stylesheet" href="{{ asset( '/css/main.min.css' ) }}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-		<link rel="stylesheet" href="{{ asset( '/public/css/morphext.css' ) }}">
-		<link rel="icon" href="{{ asset( '/public/img/logo.ico' ) }}">
+		<link rel="stylesheet" href="{{ asset( '/css/morphext.css' ) }}">
+		<link rel="icon" href="{{ asset( '/img/logo.ico' ) }}">
 	</head>
 	<body>
 
