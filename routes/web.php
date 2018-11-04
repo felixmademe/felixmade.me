@@ -15,3 +15,8 @@ Route::get( '/', function ()
 {
     return view( 'main' );
 });
+
+Route::get( '/secret', function ()
+{
+    return view( 'secret' );
+});
