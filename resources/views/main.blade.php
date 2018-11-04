@@ -116,6 +116,15 @@
                             </h3>
                         </div>
                         <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
+                            <form class="" action="/" method="post">
+                                <div class="">
+                                    <input type="text" name="firstName" placeholder="first name...">
+                                    <input type="text" name="lastName" placeholder="last name...">
+                                    <input type="text" name="email" placeholder="email...">
+                                    <textarea name="message" rows="8" cols="80" placeholder="message..."></textarea>
+                                    <input type="submit" name="submit">
+                                </div>
+                            </form>
                             <p class="mt-3 mt-lg-5">
                                 not now but very very soon!
                             </p>
