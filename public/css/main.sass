@@ -13,8 +13,8 @@ $grey: #3E3E3E
 
 // Default values
 body
-    font-family: 'Raleway', sans-serif
-    font-size: 12px
+    font-family: 'Raleway', sans-serif !important
+    font-size: 12px !important
     width: 100vw !important
 
 h1, h2, h3
@@ -117,6 +117,13 @@ hr
         background-color: $green
 
 .contact
+    .btn-purple
+        background-color: $darkpurple !important
+        color: white
+        transition-duration: 0.4s
+        &:hover
+            opacity: 0.8
+            transition-duration: 0.4s
 
 .footer
     color: #FFF !important

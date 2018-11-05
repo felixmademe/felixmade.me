@@ -7,19 +7,17 @@
             <div class="container">
                 <div class="row">
                     <div id="particles-js"></div>
-                    <div class="col-12">
-                        <div class="col col-sm-2 mx-auto">
-                            <img src="{{ asset( '/img/Logo.png' ) }}" alt="Felix Wetell logo">
-                            <h1>
-                                felix
-                            </h1>
-                            <h1>
-                                made
-                            </h1>
-                            <h1>
-                                <span id="changing-text" class="green">me, this, one, what, who</span>
-                            </h1>
-                        </div>
+                    <div class="col-sm-2 mx-auto">
+                        <img src="{{ asset( '/img/Logo.png' ) }}" alt="Felix Wetell logo">
+                        <h1>
+                            felix
+                        </h1>
+                        <h1>
+                            made
+                        </h1>
+                        <h1>
+                            <span id="changing-text" class="green">me, this, one, what, who</span>
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -28,37 +26,29 @@
         <div class="section intro">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="col-12 col-lg-6 float-left">
-                            <h2 class="text-left">
-                                fullstack
-                                <br>
-                                <span class="green">developer</span>
-                            </h2>
-                        </div>
+                    <div class="col-12 col-lg-6 float-left">
+                        <h2 class="text-left">
+                            fullstack
+                            <br>
+                            <span class="green shake">developer</span>
+                        </h2>
+                    </div>
+                    <br><br>
+                    <div class="col-12 col-lg-6 offset-lg-6">
+                        <h2 class="text-right">
+                            web
+                            <br>
+                            <span class="purple">designer</span>
+                        </h2>
                     </div>
                 </div>
                 <br><br>
                 <div class="row">
-                    <div class="col-12">
-                        <div class="col-12 col-lg-6 float-right">
-                            <h2 class="text-right">
-                                web
-                                <br>
-                                <span class="purple">designer</span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col-12 col-lg-6 mx-auto">
-                            <p class="text-center big">
-                                hi, my name is <span class="green">Felix Wetell</span> and I am a fullstack developer and also a web designer.
-                                I like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun!
-                            </p>
-                        </div>
+                    <div class="col-12 col-lg-6 mx-auto">
+                        <p class="text-center big">
+                            hi, my name is <span class="green">Felix Wetell</span> and I am a fullstack developer and also a web designer.
+                            I like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -83,20 +73,18 @@
         <div class="section about">
             <div class="container">
                 <div class="row">
-                    <div class=" col-12">
-                        <div class="col-12 col-lg-6">
-                            <h2>
-                                felix
-                                <br>
-                                <span>wetell</span>
-                            </h2>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <p class="mt-4">
-                                hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
-                                I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
-                            </p>
-                        </div>
+                    <div class="col-12 col-lg-6  d-flex align-items-center">
+                        <h2>
+                            felix
+                            <br>
+                            <span>wetell</span>
+                        </h2>
+                    </div>
+                    <div class="col-12 col-lg-6 float-right d-flex align-items-center">
+                        <p class="">
+                            hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
+                            I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -107,28 +95,41 @@
         <div class="section contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="col-12 col-lg-6 float-right">
-                            <h3 class="text-lg-right">
-                                contact
-                                <br>
-                                <span class="purple">me</span>
-                            </h3>
-                        </div>
-                        <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
-                            <form class="" action="/" method="post">
-                                <div class="">
-                                    <input type="text" name="firstName" placeholder="first name...">
-                                    <input type="text" name="lastName" placeholder="last name...">
-                                    <input type="text" name="email" placeholder="email...">
-                                    <textarea name="message" rows="8" cols="80" placeholder="message..."></textarea>
-                                    <input type="submit" name="submit">
-                                </div>
-                            </form>
-                            <p class="mt-3 mt-lg-5">
-                                not now but very very soon!
-                            </p>
-                        </div>
+                    <div class="col-lg-6 d-block d-lg-none">
+                        <h3 class="">
+                            contact
+                            <br>
+                            <span class="purple">me</span>
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
+                        {{-- Insert form and use floating labels --}}
+                        <form >
+                            <div class="form-group">
+                                <small class="form-text text-muted">all fields are required</small>
+                                <input type="text" class="form-control" name="firstName" placeholder="first name..." required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="lastName" placeholder="last name..." required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="email..." required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" name="message" placeholder="message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-purple">Submit</button>
+                        </form>
+                        {{-- <p class="mt-3 mt-lg-5">
+                            not now but very very soon!
+                        </p> --}}
+                    </div>
+                    <div class="col-lg-6 float-right d-none d-lg-flex align-items-center">
+                        <h3 class="text-lg-right">
+                            contact
+                            <br>
+                            <span class="purple">me</span>
+                        </h3>
                     </div>
                 </div>
             </div>
