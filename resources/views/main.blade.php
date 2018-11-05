@@ -155,9 +155,9 @@
                         <img data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
                     </a>
                 </div>
-                <div class="text-center">
-                    <a href="/secret" class=""></a>
-                </div>
+            </div>
+            <div class="text-center">
+                <a href="/secret" class="secret-link">Secret</a>
             </div>
         </div>
     </div>
