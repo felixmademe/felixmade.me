@@ -1,7 +1,4 @@
-
-particlesJS.load('particles-js', '/public/js/particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
+particlesJS.load( 'particles-js', '/public/js/particles.json', function() {} );
 
 new fullpage('#fullpage', {
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
