@@ -100,15 +100,34 @@ hr
 .intro
 
 .jobs
-    .slide
-        img
-            width: 100%
-            height: 85%
-            opacity: 0.8
+    .swiper-slide
+        padding: 40px
+
+    h4
+        font-size: 2rem
+        color: $green
+
+    a
+        transition-duration: 0.4s
+        &:hover
             transition-duration: 0.4s
-            &:hover
-                opacity: 0.7
-                transition-duration: 0.4s
+            text-decoration: none
+            opacity: 0.8
+
+    .swiper-img
+        max-width: 100%
+        opacity: 0.9
+
+    .swiper-button-prev
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%238C7AE6'%2F%3E%3C%2Fsvg%3E") !important
+
+    .swiper-button-next
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%238C7AE6'%2F%3E%3C%2Fsvg%3E") !important
+
+    .swiper-pagination-bullet-active
+        background-color: $purple
+
+
 
 .about
     color: #FFF !important
@@ -117,9 +136,14 @@ hr
         background-color: $green
 
 .contact
+    color: #FFF
+
+    form
+        color: $grey
+
     .btn-purple
-        background-color: $darkpurple !important
-        color: white
+        background-color: white !important
+        color: $grey
         transition-duration: 0.4s
         &:hover
             opacity: 0.8
