@@ -53,34 +53,17 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="section jobs">
-            <div class="container">
-                {{-- TODO: Make images more responsive --}}
-                {{-- TODO: Add "company" name and small description like the Sketch --}}
-                <div class="slide" id="oldPortfolio">
-                    <a href="http://felixwetell.azurewebsites.net/" target="_blank">
-                        <img data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
-                    </a>
-                </div>
-                <div class="slide" id="gamethrill">
-                    <a href="https://gamethrill.io/news/articles" target="_blank">
-                        <img data-src="{{ asset( '/img/gamethrill.png' ) }}" alt="Gamethrill articles page">
-                    </a>
-                </div>
-            </div>
-        </div>
         <div class="section about">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6  d-flex align-items-center">
+                <div class="d-lg-flex flex-row">
+                    <div class="col-12 col-lg-6  d-lg-flex align-self-center">
                         <h2>
                             felix
                             <br>
                             <span>wetell</span>
                         </h2>
                     </div>
-                    <div class="col-12 col-lg-6 float-right d-flex align-items-center">
+                    <div class="col-12 col-lg-6 float-right d-lg-flex align-self-center">
                         <p class="">
                             hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
                             I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
@@ -88,26 +71,73 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                {{-- TODO: Add slider of skills --}}
+        </div>
+        <div class="section jobs">
+            <div class="container">
+                {{-- TODO: Make images more responsive --}}
+                {{-- TODO: Add "company" name and small description like the Sketch --}}
+                <div class="swiper-container swiper-skills">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://felixwetell.azurewebsites.net">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://felixwetell.azurewebsites.net">
+                                            <h4>felix wetell portfolio</h4>
+                                        </a>
+                                        <p>older portfolio i made when i was studying c#.net and was an aspiring fullstack developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row-reverse align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://new.lindacarlstad.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://new.lindacarlstad.se">
+                                            <h4>linda carlstad</h4>
+                                        </a>
+                                        <p>
+                                            refreshed the website for my university organisation i was in during
+                                            my years studying at karlstad university
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
         <div class="section contact">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-block d-lg-none">
-                        <h3 class="">
+                <div class="d-lg-flex flex-row-reverse">
+                    <div class="col-lg-6 float-right d-lg-flex align-self-center justify-content-lg-end">
+                        <h3 class="text-lg-right">
                             contact
                             <br>
-                            <span class="purple">me</span>
+                            <span>me</span>
                         </h3>
                     </div>
                     <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
-                        {{-- Insert form and use floating labels --}}
                         <form action="/" method="post">
                             @csrf
                             <div class="form-group">
-                                <small class="form-text text-muted">all fields are required</small>
                                 <input type="text" class="form-control" name="name" placeholder="name..." required>
                             </div>
                             <div class="form-group">
@@ -118,16 +148,6 @@
                             </div>
                             <button type="submit" class="btn btn-purple">Submit</button>
                         </form>
-                        {{-- <p class="mt-3 mt-lg-5">
-                            not now but very very soon!
-                        </p> --}}
-                    </div>
-                    <div class="col-lg-6 float-right d-none d-lg-flex align-items-center">
-                        <h3 class="text-lg-right">
-                            contact
-                            <br>
-                            <span class="purple">me</span>
-                        </h3>
                     </div>
                 </div>
             </div>
