@@ -20,3 +20,5 @@ Route::get( '/secret', function ()
 {
     return view( 'secret' );
 });
+
+Route::post( '/', 'ContactController@contactForm' );

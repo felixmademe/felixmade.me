@@ -104,19 +104,17 @@
                     </div>
                     <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
                         {{-- Insert form and use floating labels --}}
-                        <form >
+                        <form action="/" method="post">
+                            @csrf
                             <div class="form-group">
                                 <small class="form-text text-muted">all fields are required</small>
-                                <input type="text" class="form-control" name="firstName" placeholder="first name..." required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="lastName" placeholder="last name..." required>
+                                <input type="text" class="form-control" name="name" placeholder="name..." required>
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="email..." required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" name="message" placeholder="message..." required></textarea>
+                                <textarea class="form-control" rows="5" name="text" placeholder="message..." required></textarea>
                             </div>
                             <button type="submit" class="btn btn-purple">Submit</button>
                         </form>
