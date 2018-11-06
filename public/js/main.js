@@ -1,14 +1,34 @@
 particlesJS.load( 'particles-js', '/public/js/particles.json', function() {} );
 
-new fullpage('#fullpage', {
+new fullpage('#fullpage',
+{
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     navigation: false,
-    anchors: ['home', 'intro', 'jobs', 'about', 'contact', 'footer'],
-    sectionsColor: ['#FFF', '#FFF', '#FFF', '#7BED9F', '#FFF', '#3E3E3E']
+    anchors: ['home', 'intro', 'about', 'jobs', 'contact', 'footer'],
+    sectionsColor: ['#FFF', '#FFF', '#7BED9F', '#FFF', '#9C88FF', '#3E3E3E']
 });
 
-$("#changing-text").Morphext({
+$("#changing-text").Morphext(
+    {
     animation: "fadeInUp",
     separator: ",",
     speed: 3500
+});
+
+var mySwiper = new Swiper('.swiper-skills',
+{
+    speed: 1500,
+    spaceBetween: 10,
+    loop: true,
+    navigation:
+    {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
+
 });
