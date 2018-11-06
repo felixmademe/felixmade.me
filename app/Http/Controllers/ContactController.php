@@ -23,5 +23,7 @@ class ContactController extends Controller
                 $request->email,
                 $request->text
             ));
+
+        return back();
     }
 }
