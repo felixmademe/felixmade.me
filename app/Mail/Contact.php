@@ -22,9 +22,9 @@ class Contact extends Mailable
      */
     public function __construct( $name, $email, $text )
     {
-        $this->name = $name;
+        $this->name  = $name;
         $this->email = $email;
-        $this->text = $text;
+        $this->text  = $text;
     }
 
     /**
@@ -34,13 +34,14 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.view')
-                    ->from($this->email, $this->name)
-                    ->replyTo($this->email)
+        return $this->view( 'mail.view' )
+                    ->from( $this->email, $this->name )
+                    ->replyTo( $this->email )
                     ->subject( 'Contact form via felixmade.me' )
                     ->with([
-                        'name' => $this->name,
-                        'text' => $this->text
+                        'name'  => $this->name,
+                        'email' => $this->email,
+                        'text'  => $this->text
                     ]);
     }
 }
