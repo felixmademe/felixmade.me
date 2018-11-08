@@ -70,13 +70,18 @@
                         </p>
                     </div>
                 </div>
+                <br><br>
+                <div class="row text-center">
+                    <div class="col-12 col-lg-6 offset-lg-3">
+                        <canvas id="skillsChart"></canvas>
+
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section jobs">
             <div class="container">
-                {{-- TODO: Make images more responsive --}}
-                {{-- TODO: Add "company" name and small description like the Sketch --}}
-                <div class="swiper-container swiper-skills">
+                <div class="swiper-container swiper-jobs">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
