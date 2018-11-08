@@ -46,8 +46,9 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 mx-auto">
                         <p class="text-center big">
-                            hi, my name is <span class="green">Felix Wetell</span> and I am a fullstack developer and also a web designer.
-                            I like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun!
+                            hi, my name is <span class="green">felix wetell</span> and i am a fullstack developer and also a web designer
+                            <br>
+                            i like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun
                         </p>
                     </div>
                 </div>
@@ -65,8 +66,11 @@
                     </div>
                     <div class="col-12 col-lg-6 float-right d-lg-flex align-self-center">
                         <p class="">
-                            hi, my name is <span class="grey">Felix Wetell</span> and I am a fullstack developer and also a web designer.
-                            I like to create solutions for <span class="grey">people</span> that makes the everyday life easier and more fun!
+                            based in <span class="grey">Karlstad, Sweden</span> where I currently studying <span>web development</span>
+                            with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">usability</span>
+                            <br>
+                            in my spare time i like to modify cars, compete in motorcycle racing and
+                            ride mountainbike
                         </p>
                     </div>
                 </div>
