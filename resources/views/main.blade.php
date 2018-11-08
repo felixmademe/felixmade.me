@@ -8,7 +8,7 @@
                 <div class="row">
                     <div id="particles-js"></div>
                     <div class="col-sm-2 mx-auto">
-                        <img src="{{ asset( '/img/Logo.png' ) }}" alt="Felix Wetell logo">
+                        <img src="{{ asset( '/public/img/Logo.png' ) }}" alt="Felix Wetell logo">
                         <h1>
                             felix
                         </h1>
@@ -91,7 +91,7 @@
                             <div class="d-lg-flex flex-row align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://felixwetell.azurewebsites.net">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                                        <img class="swiper-img" data-src="{{ asset( '/public/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
                                     </a>
                                 </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
@@ -108,7 +108,7 @@
                             <div class="d-lg-flex flex-row-reverse align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://new.lindacarlstad.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
+                                        <img class="swiper-img" data-src="{{ asset( '/public/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
                                     </a>
                                 </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
@@ -170,17 +170,17 @@
             <div class="row text-center">
                 <div class="col-12 col-md-4">
                     <a href="https://twitter.com/felixwetell">
-                        <img data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
+                        <img data-src="{{ asset( '/public/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="https://github.com/felixwetell">
-                        <img data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
+                        <img data-src="{{ asset( '/public/img/github.svg' ) }}" alt="White GitHub logo">
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="https://www.linkedin.com/in/felix-wetell/">
-                        <img data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
+                        <img data-src="{{ asset( '/public/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
                     </a>
                 </div>
             </div>
