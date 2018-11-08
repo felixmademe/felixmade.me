@@ -21,4 +21,9 @@ Route::get( '/secret', function ()
     return view( 'secret' );
 });
 
+Route::get( '/terms', function ()
+{
+    return view( 'terms' );
+});
+
 Route::post( '/', 'ContactController@contactForm' );

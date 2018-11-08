@@ -15,6 +15,7 @@ class ContactController extends Controller
             'name'  => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'text'  => 'required|string'
+            'terms' => 'accepted'
         ]);
 
         Mail::to( env( 'MAIL_FROM_ADDRESS' ) )

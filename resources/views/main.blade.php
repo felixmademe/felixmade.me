@@ -155,6 +155,12 @@
                             <div class="form-group">
                                 <textarea class="form-control" rows="5" name="text" placeholder="message..." required></textarea>
                             </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" name="terms" required class="form-check-input">
+                                <label class="form-check-label white">i have read and accepted the
+                                    <a class="grey" href="/terms">terms & conditions</a>
+                                </label>
+                            </div>
                             <button type="submit" class="btn btn-purple">Submit</button>
                         </form>
                     </div>
