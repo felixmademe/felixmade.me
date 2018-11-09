@@ -4,6 +4,7 @@ new fullpage('#fullpage',
 {
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     navigation: false,
+    autoScrolling: false,
     anchors: ['home', 'intro', 'about', 'jobs', 'contact', 'footer'],
     sectionsColor: ['#FFF', '#FFF', '#7BED9F', '#FFF', '#9C88FF', '#3E3E3E']
 });
