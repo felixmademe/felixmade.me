@@ -4,6 +4,7 @@ new fullpage('#fullpage',
 {
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     navigation: false,
+    autoScrolling: false,
     anchors: ['home', 'intro', 'about', 'jobs', 'contact', 'footer'],
     sectionsColor: ['#FFF', '#FFF', '#7BED9F', '#FFF', '#9C88FF', '#3E3E3E']
 });
@@ -15,7 +16,7 @@ $("#changing-text").Morphext(
     speed: 3500
 });
 
-var mySwiper = new Swiper('.swiper-jobs',
+var swiper = new Swiper('.swiper-jobs',
 {
     speed: 1500,
     spaceBetween: 10,
