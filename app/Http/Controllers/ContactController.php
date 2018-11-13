@@ -14,7 +14,7 @@ class ContactController extends Controller
         $request->validate ([
             'name'  => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'text'  => 'required|string'
+            'text'  => 'required|string',
             'terms' => 'accepted'
         ]);
 
@@ -25,6 +25,6 @@ class ContactController extends Controller
                 $request->text
             ));
 
-        return back();
+        return response()->json( [ 'result' => 'your message have been sent' ], 200);
     }
 }

@@ -26,4 +26,4 @@ Route::get( '/terms', function ()
     return view( 'terms' );
 });
 
-Route::post( '/', 'ContactController@contactForm' );
+Route::post( '/contactForm', 'ContactController@contactForm' );

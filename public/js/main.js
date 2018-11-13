@@ -16,7 +16,7 @@ $("#changing-text").Morphext(
     speed: 3500
 });
 
-var mySwiper = new Swiper('.swiper-jobs',
+var swiper = new Swiper('.swiper-jobs',
 {
     speed: 1500,
     spaceBetween: 10,
