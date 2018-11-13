@@ -39,8 +39,9 @@ $(document).ready(function()
                 console.log( data.result );
                 console.log( data );
                 $( "form" )[0].reset();
-                $( "#alert" ).fadeIn();
+                $( "#alert" ).fadeIn( 400 );
                 $( "#alert p" ).text( data.result );
+                $( "#alert" ).delay( 5000 ).fadeOut( 400 );
             },
             error: function(data)
             {
