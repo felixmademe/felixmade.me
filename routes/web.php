@@ -21,9 +21,9 @@ Route::get( '/secret', function ()
     return view( 'secret' );
 });
 
-Route::get( '/terms', function ()
+Route::get( '/policy-policy', function ()
 {
-    return view( 'terms' );
-});
+    return view( 'policy' );
+})->name( 'policy' );
 
 Route::post( '/contactForm', 'ContactController@contactForm' );

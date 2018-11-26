@@ -35,7 +35,7 @@ $(document).ready(function()
                 name  : name,
                 email : email,
                 text  : text,
-                terms : terms,
+                policy : policy,
             },
             dataType: 'json',
             success: function( data )
