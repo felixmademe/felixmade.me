@@ -14,11 +14,11 @@ $(document).ready(function()
         let email = $( "input[type=email]" ).val();
         let text  = $( "textarea" ).val();
         let checkbox = $( "input[type=checkbox]" ).is( ":checked");
-        let terms;
+        let policy;
 
         if ( checkbox )
         {
-            terms = true;
+            policy = true;
         }
 
         $.ajaxSetup({

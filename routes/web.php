@@ -21,7 +21,7 @@ Route::get( '/secret', function ()
     return view( 'secret' );
 });
 
-Route::get( '/policy-policy', function ()
+Route::get( '/privacy-policy', function ()
 {
     return view( 'policy' );
 })->name( 'policy' );

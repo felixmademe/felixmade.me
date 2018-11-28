@@ -161,7 +161,7 @@
                             <div class="form-group form-check">
                                 <input type="checkbox" name="policy" required class="form-check-input">
                                 <label class="form-check-label white">i have read and accepted the
-                                    <a class="grey" href="/policy">privacy policy</a>
+                                    <a class="grey" href="{{ route( 'policy' ) }}">privacy policy</a>
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-purple" id="submit">Submit</button>
