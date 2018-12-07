@@ -88,19 +88,22 @@
                 <div class="swiper-container swiper-jobs">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://felixwetell.azurewebsites.net">
-                                        <img class="swiper-img" data-src="{{ secure_asset( '/public/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
-                                    </a>
-                                </div>
+                            <div class="d-lg-flex flex-row-reverse align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
-                                        <a href="https://felixwetell.azurewebsites.net">
-                                            <h4>felix wetell portfolio</h4>
+                                        <a href="https://acidfinance.com">
+                                            <h4>acid finance</h4>
                                         </a>
-                                        <p>older portfolio i made when i was studying c#.net and was an aspiring fullstack developer</p>
+                                        <p>
+                                            acid finance helps you by visualising your incomes and expenses,
+                                            cut down unnecessary costs and save money
+                                        </p>
                                     </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://acidfinance.com">
+                                        <img class="swiper-img" data-src="{{ secure_asset( '/public/img/acidfinance.png' ) }}" alt="Acid Finance website">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -119,6 +122,26 @@
                                         <p>
                                             refreshed the website for my university organisation i was in during
                                             my years studying at karlstad university
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://felixwetell.azurewebsites.net">
+                                        <img class="swiper-img" data-src="{{ secure_asset( '/public/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://felixwetell.azurewebsites.net">
+                                            <h4>felix wetell portfolio</h4>
+                                        </a>
+                                        <p>
+                                            older portfolio i made when i was studying c#.net and
+                                            was an aspiring fullstack developer
                                         </p>
                                     </div>
                                 </div>
