@@ -1,4 +1,4 @@
-particlesJS.load( 'particles-js', '/public/js/particles.json', function() {} );
+particlesJS.load( 'particles-js', '/js/particles.json', function() {} );
 
 new fullpage('#fullpage',
 {
