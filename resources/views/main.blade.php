@@ -196,7 +196,7 @@
         <div class="section footer">
             <div class="copyright">
                 <p class="text-center">
-                    copyright © 2018 felix wetell
+                    copyright © {{ date( 'Y' ) }} felix wetell
                 </p>
             </div>
             <div class="row text-center">
