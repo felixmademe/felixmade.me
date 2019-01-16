@@ -88,7 +88,7 @@
                 <div class="swiper-container swiper-jobs">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row-reverse align-content-stretch">
+                            <div class="d-lg-flex flex-row align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://acidfinance.com">
@@ -108,12 +108,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row-reverse align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://new.lindacarlstad.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
-                                    </a>
-                                </div>
+                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://new.lindacarlstad.se">
@@ -125,15 +120,15 @@
                                         </p>
                                     </div>
                                 </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://new.lindacarlstad.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://felixwetell.azurewebsites.net">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
-                                    </a>
-                                </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://felixwetell.azurewebsites.net">
@@ -144,6 +139,11 @@
                                             was an aspiring fullstack developer
                                         </p>
                                     </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://felixwetell.azurewebsites.net">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
                                 </div>
                             </div>
                         </div>
