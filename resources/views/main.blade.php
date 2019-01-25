@@ -203,7 +203,7 @@
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" name="policy" required class="form-check-input">
-                                <label class="form-check-label white">i have read and accepted the
+                                <label class="form-check-label white">i have read and accept the
                                     <a class="grey" href="{{ route( 'policy' ) }}">privacy policy</a>
                                 </label>
                             </div>
