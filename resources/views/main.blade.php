@@ -147,6 +147,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://larardagenkau.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://larardagenkau.se">
+                                            <h4>lärardagen kau</h4>
+                                        </a>
+                                        <p>
+                                            website for an event for teacher students on
+                                            karlstad university, built with wordpress
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="swiper-pagination"></div>
