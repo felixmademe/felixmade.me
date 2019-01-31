@@ -115,8 +115,8 @@
                                             <h4>linda carlstad</h4>
                                         </a>
                                         <p>
-                                            refreshed the website for my university organisation i was in during
-                                            my years studying at karlstad university
+                                            refreshed website for the university organisation linda carlstad
+                                            built in php using the framework laravel
                                         </p>
                                     </div>
                                 </div>
@@ -127,33 +127,9 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://felixwetell.azurewebsites.net">
-                                            <h4>felix wetell portfolio</h4>
-                                        </a>
-                                        <p>
-                                            older portfolio i made when i was studying c#.net and
-                                            was an aspiring fullstack developer
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://felixwetell.azurewebsites.net">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://larardagenkau.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="Felix Wetell old portfolio">
-                                    </a>
-                                </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://larardagenkau.se">
@@ -161,9 +137,35 @@
                                         </a>
                                         <p>
                                             website for an event for teacher students on
-                                            karlstad university, built with wordpress
+                                            karlstad university, built with wordpress in the
+                                            highlight theme
                                         </p>
                                     </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://larardagenkau.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://felixwetell.azurewebsites.net">
+                                            <h4>felix wetell portfolio</h4>
+                                        </a>
+                                        <p>
+                                            first portfolio i made when studying "gymnasieingenjör"
+                                            and fullstack-developer, built with C# .NET
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://felixwetell.azurewebsites.net">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
+                                    </a>
                                 </div>
                             </div>
                         </div>
