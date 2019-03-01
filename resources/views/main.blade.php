@@ -111,6 +111,27 @@
                             <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
+                                        <a href="https://fancythegame.com">
+                                            <h4>fancy the game</h4>
+                                        </a>
+                                        <p>
+                                            school project that i developed and created the most simple
+                                            and a satisfying one-click ui
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://new.lindacarlstad.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/fancythegame.png' ) }}" alt="Fancy The Game website">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row align-content-stretch">
+                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                    <div>
                                         <a href="https://new.lindacarlstad.se">
                                             <h4>linda carlstad</h4>
                                         </a>
@@ -129,7 +150,7 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
+                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://larardagenkau.se">
@@ -150,7 +171,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
+                            <div class="d-lg-flex flex-row align-content-stretch">
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://felixwetell.azurewebsites.net">
