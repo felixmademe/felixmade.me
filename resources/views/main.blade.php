@@ -66,11 +66,11 @@
                     </div>
                     <div class="col-12 col-lg-6 float-right d-lg-flex align-self-center">
                         <p class="">
-                            based in <span class="grey">Karlstad, Sweden</span> where I currently studying <span>web development</span>
-                            with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">usability</span>
+                            based in <span class="grey">karlstad, sweden</span> where I am currently studying <span>web development</span>
+                            with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">user interactivity</span>
                             <br>
-                            in my spare time i like to modify cars, compete in motorcycle racing and
-                            ride mountainbike
+                            in my spare time i like to modify cars, race bikes and
+                            hit trails in the local woods
                         </p>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://new.lindacarlstad.se">
+                                    <a href="https://fancythegame.com">
                                         <img class="swiper-img" data-src="{{ asset( '/img/fancythegame.png' ) }}" alt="Fancy The Game website">
                                     </a>
                                 </div>
@@ -264,7 +264,5 @@
             </div>
         </div>
     </div>
-    <div class="arrowUp"></div>
-    <div class="arrowDown"></div>
 
 @endsection
