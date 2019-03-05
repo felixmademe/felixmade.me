@@ -103,7 +103,7 @@
     <h2>Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us:</p>
     <ul>
-        <li>By email: felix.wetell@gmail.com</li>
+        <li>By email: hello@felixmade.me</li>
     </ul>
 </div>
 @endsection
