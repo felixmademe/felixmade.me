@@ -1,5 +1,43 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="felix, made, me, felix made, felix made me, felix, wetell, felix wetell, fullstack, developer, web design, web, design">
+		<meta name="description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
+		<meta name="subject" content="Development">
+		<meta name="image" content="https://felixmade.me/img/Logo.png">
+		<meta name="language" content="{{ str_replace('_', '-', app()->getLocale()) }}">
+		<meta name="robots" content="index, follow">
+		<meta name="Classification" content="Business">
+		<meta name="author" content="felix made me, hello@felixmade.me">
+		<meta name="designer" content="felix made me">
+		<meta name="copyright" content="felix made me">
+		<meta name="reply-to" content="hello@felixmade.me">
+		<meta name="owner" content="felix made me">
+		<meta name="url" content="http://www.felixmade.me">
+		<meta name="identifier-URL" content="http://www.felixmade.me">
+		<meta name="coverage" content="Worldwide">
+		<meta name="distribution" content="Global">
+		<meta name="rating" content="General">
+		<meta name="revisit-after" content="7 days">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
+
+		<!-- Schema.org for Google -->
+		<meta itemprop="name" content="felix made me">
+		<meta itemprop="description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
+		<meta itemprop="image" content="http://www.felixmade.me/img/Logo.png">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
+		<meta name="twitter:title" content="felix made me">
+		<meta name="twitter:description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta name="og:title" content="felix made me">
+		<meta name="og:description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
+		<meta name="og:image" content="http://www.felixmade.me/img/Logo.png">
+		<meta name="og:url" content="http://www.felixmade.me">
+		<meta name="og:site_name" content="felix made me">
+		<meta name="og:locale" content="{{ str_replace('_', '-', app()->getLocale()) }}">
+		<meta name="og:type" content="website">
+
 		<title>felix made me</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
