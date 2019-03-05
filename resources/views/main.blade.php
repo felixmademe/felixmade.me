@@ -25,7 +25,7 @@
         <div class="section intro">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6 float-left">
+                    <div class="col-lg-6 float-left">
                         <h2 class="text-left">
                             fullstack
                             <br>
@@ -33,7 +33,7 @@
                         </h2>
                     </div>
                     <br><br>
-                    <div class="col-12 col-lg-6 offset-lg-6">
+                    <div class="col-lg-6 offset-lg-6">
                         <h2 class="text-right">
                             web
                             <br>
@@ -43,7 +43,7 @@
                 </div>
                 <br><br>
                 <div class="row">
-                    <div class="col-12 col-lg-6 mx-auto">
+                    <div class="col-lg-6 mx-auto">
                         <p class="text-center big">
                             hi, my name is <span class="green">felix wetell</span> and i am a fullstack developer and also a web designer
                             <br>
@@ -56,14 +56,14 @@
         <div class="section about">
             <div class="container">
                 <div class="d-lg-flex flex-row">
-                    <div class="col-12 col-lg-6  d-lg-flex align-self-center">
+                    <div class="col-lg-6  d-lg-flex align-self-center">
                         <h2>
                             felix
                             <br>
                             <span>wetell</span>
                         </h2>
                     </div>
-                    <div class="col-12 col-lg-6 float-right d-lg-flex align-self-center">
+                    <div class="col-lg-6 float-right d-lg-flex align-self-center">
                         <p class="">
                             based in <span class="grey">karlstad, sweden</span> where I am currently studying <span>web development</span>
                             with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">user interactivity</span>
@@ -75,7 +75,7 @@
                 </div>
                 <br><br>
                 <div class="row text-center">
-                    <div class="col-12 col-lg-6 offset-lg-3">
+                    <div class="col-lg-6 offset-lg-3">
                         <canvas id="skillsChart"></canvas>
 
                     </div>
@@ -88,7 +88,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://acidfinance.com">
                                             <h4>acid finance</h4>
@@ -99,7 +99,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://acidfinance.com">
                                         <img class="swiper-img" data-src="{{ asset( '/img/acidfinance.png' ) }}" alt="Acid Finance website">
                                     </a>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://fancythegame.com">
                                             <h4>fancy the game</h4>
@@ -119,7 +119,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://fancythegame.com">
                                         <img class="swiper-img" data-src="{{ asset( '/img/fancythegame.png' ) }}" alt="Fancy The Game website">
                                     </a>
@@ -129,7 +129,7 @@
 
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://new.lindacarlstad.se">
                                             <h4>linda carlstad</h4>
@@ -140,7 +140,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://new.lindacarlstad.se">
                                         <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
                                     </a>
@@ -150,7 +150,7 @@
 
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://larardagenkau.se">
                                             <h4>lärardagen kau</h4>
@@ -162,7 +162,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://larardagenkau.se">
                                         <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="lärardagen kau website">
                                     </a>
@@ -171,7 +171,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://felixwetell.azurewebsites.net">
                                             <h4>felix wetell portfolio</h4>
@@ -182,7 +182,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 d-lg-flex align-items-center">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://felixwetell.azurewebsites.net">
                                         <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
                                     </a>
@@ -208,7 +208,7 @@
                             <span>me</span>
                         </h3>
                     </div>
-                    <div class="col-12 col-lg-6 float-left pt-0 pt-lg-4">
+                    <div class="col-lg-6 float-left pt-0 pt-lg-4">
                         <div id="alert" class="py-2">
                             <p></p>
                         </div>
@@ -244,17 +244,17 @@
                 </p>
             </div>
             <div class="row text-center">
-                <div class="col-12 col-md-4">
+                <div class="col-md-4">
                     <a href="https://twitter.com/felixwetell">
                         <img data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
                     </a>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-md-4">
                     <a href="https://github.com/felixwetell">
                         <img data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
                     </a>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-md-4">
                     <a href="https://www.linkedin.com/in/felix-wetell/">
                         <img data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
                     </a>
