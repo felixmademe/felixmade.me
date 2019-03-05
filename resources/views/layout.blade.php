@@ -54,6 +54,15 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 		<link rel="stylesheet" href="{{ asset( '/css/morphext.css' ) }}">
 		<link rel="icon" href="{{ asset( '/img/logo.ico' ) }}">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135535698-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-135535698-1');
+		</script>
+
 	</head>
 	<body>
 
