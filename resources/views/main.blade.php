@@ -8,7 +8,7 @@
                 <div class="row">
                     <div id="particles-js"></div>
                     <div class="col-sm-2 mx-auto">
-                        <img src="{{ asset( '/img/Logo.png' ) }}" alt="Felix Wetell logo">
+                        <img src="{{ asset( '/img/Logo.png' ) }}" alt="felix made me logo">
                         <h1>
                             felix
                         </h1>
@@ -165,7 +165,7 @@
                                 </div>
                                 <div class="col-12 col-lg-6 d-lg-flex align-items-center">
                                     <a href="https://larardagenkau.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="Felix Wetell old portfolio">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="lärardagen kau website">
                                     </a>
                                 </div>
                             </div>
@@ -227,7 +227,9 @@
                             <div class="form-group form-check">
                                 <input type="checkbox" name="policy" required class="form-check-input">
                                 <label class="form-check-label white">i have read and accept the
-                                    <a class="grey" href="{{ route( 'policy' ) }}">privacy policy</a>
+                                    <a class="grey" href="{{ route( 'policy' ) }}" target="_blank">
+                                        privacy policy
+                                    </a>
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-purple" id="submit">Submit</button>
