@@ -10,11 +10,9 @@
                         <img src="{{ asset( '/img/Logo.png' ) }}" alt="felix made me logo">
                         <h1>
                             felix
-                        </h1>
-                        <h1>
+                            <br>
                             made
-                        </h1>
-                        <h1>
+                            <br>
                             <span id="changing-text" class="green">me, this, one, what, who</span>
                         </h1>
                     </div>
