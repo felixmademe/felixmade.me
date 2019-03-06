@@ -12,9 +12,10 @@
                             felix
                             <br>
                             made
-                            <br>
-                            <span id="changing-text" class="green">me, this, one, what, who</span>
                         </h1>
+                        <p>
+                            <span id="changing-text" class="green">me, this, one, what, who</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -46,6 +47,8 @@
                             hi, my name is <span class="green">felix wetell</span> and i am a fullstack developer and also a web designer
                             <br>
                             i like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun
+                            <br>
+                            my designs strive for a minimalistic look, as they say, "less is more"
                         </p>
                     </div>
                 </div>
@@ -67,7 +70,7 @@
                             with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">user interactivity</span>
                             <br>
                             in my spare time i like to modify cars, race bikes and
-                            hit trails in the local woods
+                            hit trails in the local woods with friends
                         </p>
                     </div>
                 </div>
@@ -89,9 +92,11 @@
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://acidfinance.com">
-                                            <h4>acid finance</h4>
+                                            <p class="job-title">acid finance</p>
                                         </a>
                                         <p>
+                                            personal project that later was taken over by the company
+                                            to keep up the development,
                                             acid finance helps you by visualising your incomes and expenses,
                                             cut down unnecessary costs and save money
                                         </p>
@@ -109,11 +114,12 @@
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://fancythegame.com">
-                                            <h4>fancy the game</h4>
+                                            <p class="job-title">fancy the game</p>
                                         </a>
                                         <p>
-                                            school project that i developed and created the most simple
-                                            and a satisfying one-click ui
+                                            school project that i kept developing and made it for
+                                            my own use, with a minimalistic design, one-click ui and
+                                            with a simple question game to get the user involved
                                         </p>
                                     </div>
                                 </div>
@@ -130,11 +136,12 @@
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://new.lindacarlstad.se">
-                                            <h4>linda carlstad</h4>
+                                            <p class="job-title">linda carlstad</p>
                                         </a>
                                         <p>
                                             refreshed website for the university organisation linda carlstad
-                                            built in php using the framework laravel
+                                            built in php using the framework laravel along with other
+                                            fellow students
                                         </p>
                                     </div>
                                 </div>
@@ -151,12 +158,12 @@
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://larardagenkau.se">
-                                            <h4>lärardagen kau</h4>
+                                            <p class="job-title">lärardagen kau</p>
                                         </a>
                                         <p>
                                             website for an event for teacher students on
                                             karlstad university, built with wordpress in the
-                                            highlight theme
+                                            highlight theme (later changed by client, not my design anymore)
                                         </p>
                                     </div>
                                 </div>
@@ -172,11 +179,11 @@
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://felixwetell.azurewebsites.net">
-                                            <h4>felix wetell portfolio</h4>
+                                            <p class="job-title">felix wetell portfolio</p>
                                         </a>
                                         <p>
-                                            first portfolio i made when studying "gymnasieingenjör"
-                                            and fullstack-developer, built with C# .NET
+                                            first portfolio i made when studying to become a "gymnasieingenjör"
+                                            and fullstack-developer, built with C# .NET as back-end support
                                         </p>
                                     </div>
                                 </div>
@@ -238,26 +245,27 @@
         <div class="section footer">
             <div class="copyright">
                 <p class="text-center">
-                    copyright © {{ date( 'Y' ) }} felix wetell
+                    copyright © {{ date( 'Y' ) }} felix made me
                 </p>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <a href="https://twitter.com/felixwetell">
-                        <img data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
+                        <img class="img-fluid" data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="https://github.com/felixwetell">
-                        <img data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
+                        <img class="img-fluid" data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="https://www.linkedin.com/in/felix-wetell/">
-                        <img data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
+                        <img class="img-fluid" data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
                     </a>
                 </div>
             </div>
+            <br>
             <div class="text-center">
                 <a href="/secret" class="secret-link">Secret</a>
             </div>

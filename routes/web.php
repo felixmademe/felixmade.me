@@ -16,6 +16,11 @@ Route::get( '/', function ()
     return view( 'main' );
 });
 
+Route::get( '/index.php', function ()
+{
+    return Redirect::to( '/', 301 );
+});
+
 Route::get( '/secret', function ()
 {
     return view( 'secret' );
