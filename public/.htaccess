@@ -4,7 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    # Force ww to non-www
+    # Force www to non-www
     RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
     RewriteRule ^(.*) http://%1/$1 [R=301,NE,L]
 
