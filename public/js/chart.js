@@ -1,3 +1,5 @@
+'use strict';
+
 var ctx = document.getElementById("skillsChart").getContext('2d');
 var skillsChart = new Chart(ctx, {
     type: 'bar',
