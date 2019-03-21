@@ -74,6 +74,28 @@
 			<script defer src="{{ asset( '/js/ajax.js' )}}"></script>
 			<script defer src="{{ asset( '/js/main.js' )}}"></script>
 		@endif
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		  "palette": {
+			"popup": {
+			  "background": "#000"
+			},
+			"button": {
+			  "background": "#7BED9F",
+			  "color": "#fff"
+			}
+		  },
+		  "content": {
+			"message": "this website uses cookies to ensure you get the best experience on our website",
+			"dismiss": "got it",
+			"link": "learn more"
+		  }
+		})});
+		</script>
 	</head>
 	<body>
 

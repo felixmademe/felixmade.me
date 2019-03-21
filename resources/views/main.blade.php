@@ -236,7 +236,7 @@
                                     </a>
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-purple" id="submit">Submit</button>
+                            <button type="submit" class="btn btn-purple" id="submit">submit</button>
                         </form>
                     </div>
                 </div>
