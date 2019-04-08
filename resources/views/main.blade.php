@@ -135,7 +135,7 @@
                             <div class="d-lg-flex flex-row align-content-stretch">
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
-                                        <a href="https://new.lindacarlstad.se">
+                                        <a href="https://lindacarlstad.se">
                                             <p class="job-title">linda carlstad</p>
                                         </a>
                                         <p>
@@ -152,9 +152,28 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
+                                <div class="col-lg-6 d-lg-flex align-items-center">
+                                    <div>
+                                        <a href="https://jprodagarna.se">
+                                            <p class="job-title">JPRO</p>
+                                        </a>
+                                        <p>
+                                            website for an event about equality between genders, race, and more,
+                                            held at karlstads univeristy
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-lg-flex align-items-center">
+                                    <a href="https://jprodagarna.se">
+                                        <img class="swiper-img" data-src="{{ asset( '/img/jpro.png' ) }}" alt="JPROdagarna website">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-lg-flex flex-row align-content-stretch">
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://larardagenkau.se">
@@ -175,7 +194,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
+                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
                                 <div class="col-lg-6 d-lg-flex align-items-center">
                                     <div>
                                         <a href="https://felixwetell.azurewebsites.net">
