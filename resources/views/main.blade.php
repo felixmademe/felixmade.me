@@ -7,7 +7,7 @@
                 <div class="row">
                     <div id="particles-js"></div>
                     <div class="col-sm-2 mx-auto">
-                        <img src="{{ asset( '/img/Logo.png' ) }}" alt="felix made me logo">
+                        <img src="{{ asset( '/img/logo-small-dark.svg' ) }}" alt="felix made me logo">
                         <h1>
                             felix
                             <br>
@@ -36,7 +36,7 @@
                         <h2 class="text-right">
                             web
                             <br>
-                            <span class="purple">designer</span>
+                            <span class="red">designer</span>
                         </h2>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                         <p class="text-center big">
                             hi, my name is <span class="green">felix wetell</span> and i am a fullstack developer and also a web designer
                             <br>
-                            i like to create solutions for <span class="purple">people</span> that makes the everyday life easier and more fun
+                            i like to create solutions for <span class="red">people</span> that makes the everyday life easier and more fun
                             <br>
                             my designs strive for a minimalistic look, as they say, "less is more"
                         </p>
@@ -250,12 +250,12 @@
                             <div class="form-group form-check">
                                 <input type="checkbox" name="policy" required class="form-check-input">
                                 <label class="form-check-label white">i have read and accept the
-                                    <a class="grey" href="{{ route( 'policy' ) }}" target="_blank">
+                                    <a class="darkgrey" href="{{ route( 'policy' ) }}" target="_blank">
                                         privacy policy
                                     </a>
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-purple" id="submit">submit</button>
+                            <button type="submit" class="btn btn-red" id="submit">submit</button>
                         </form>
                     </div>
                 </div>

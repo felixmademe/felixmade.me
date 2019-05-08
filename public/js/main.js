@@ -8,7 +8,7 @@ new fullpage('#fullpage',
     navigation: false,
     autoScrolling: false,
     anchors: ['home', 'intro', 'about', 'jobs', 'contact', 'footer'],
-    sectionsColor: ['#FFF', '#FFF', '#7BED9F', '#FFF', '#9C88FF', '#3E3E3E']
+    sectionsColor: ['#FFF', '#FFF', '#05C46b', '#FFF', '#F53B57', '#1E272E']
 });
 
 $("#changing-text").Morphext(

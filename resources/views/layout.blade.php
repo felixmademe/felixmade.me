@@ -82,10 +82,10 @@
 		window.cookieconsent.initialise({
 		  "palette": {
 			"popup": {
-			  "background": "#000"
+			  "background": "#1E272E"
 			},
 			"button": {
-			  "background": "#7BED9F",
+			  "background": "#05C46B",
 			  "color": "#fff"
 			}
 		  },
