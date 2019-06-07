@@ -50,7 +50,12 @@
 		<link rel="stylesheet" href="{{ asset( '/css/main.min.css' ) }}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 		<link rel="stylesheet" href="{{ asset( '/css/morphext.css' ) }}">
-		<link rel="icon" href="{{ asset( '/img/logo.ico' ) }}">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ asset( 'img/favi/apple-touch-icon.png' ) }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ asset( 'img/favi/favicon-32x32.png' ) }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ asset( 'img/favi/favicon-16x16.png' ) }}">
+		<link rel="manifest" href="{{ asset( 'img/favi/site.webmanifest' ) }}">
+
 		<script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
 		<script>
 		    var galite = galite || {};
