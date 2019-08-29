@@ -14,18 +14,17 @@ $darkgrey: #1E272E
 body
     font-family: 'Raleway', sans-serif !important
     font-size: 12px !important
-    width: 100vw !important
     overflow-x: hidden !important
 
 h1, h2, h3
-    font-size: 6em
+    font-size: 5.5em
 
 p
     font-size: 1.5rem
 
 @media only screen and (max-width: 576px)
     h1, h2, h3
-        font-size: 4em
+        font-size: 3.5em
 
     p
         font-size: 1.2rem
@@ -137,7 +136,7 @@ hr
     color: #FFF !important
 
     canvas
-        background-color: white
+        background-color: #FFF
 
 .contact
     color: #FFF
@@ -149,7 +148,7 @@ hr
             font-size: 16px !important
 
     .btn-red
-        background-color: white !important
+        background-color: #FFF !important
         color: $grey
         transition-duration: 0.4s
         &:hover
@@ -158,6 +157,11 @@ hr
 
 .footer
     color: #FFF !important
+
+    .media-text
+        font-size: 2rem
+        color: #FFF !important
+
 
     .background
         background-color: $darkgrey
@@ -170,13 +174,15 @@ hr
         p
             opacity: 0.6
 
-    img
-        width: 25%
-        margin: 20px 0
-        transition-duration: 0.4s
+    a
         &:hover
-            opacity: 0.6
-            transition-duration: 0.4s
+            .media-text
+                text-decoration: underline
+            img
+
+    img
+        max-width: 120px
+        margin: 20px 0
 
     .secret-link
         color: $darkgrey

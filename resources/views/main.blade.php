@@ -262,31 +262,40 @@
             </div>
         </div>
         <div class="section footer">
-            <div class="copyright">
-                <p class="text-center">
-                    copyright © {{ date( 'Y' ) }} felix made me
-                </p>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <a href="https://twitter.com/felixwetell">
+            <div class="offset-md-3 col-md-6 justify-content-center">
+                <a href="https://twitter.com/felixwetell">
+                    <div class="media-box text-center">
                         <img class="img-fluid" data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/felixwetell">
+                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
+                            @felixwetell
+                        </span>
+                    </div>
+                </a>
+                <a href="https://github.com/felixwetell">
+                    <div class="media-box text-center">
                         <img class="img-fluid" data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://www.linkedin.com/in/felix-wetell/">
+                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
+                            @felixwetell
+                        </span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/felix-wetell/">
+                    <div class="media-box text-center">
                         <img class="img-fluid" data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
-                    </a>
-                </div>
+                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
+                            Felix Wetell
+                        </span>
+                    </div>
+                </a>
             </div>
             <br>
             <div class="text-center">
                 <a href="/secret" class="secret-link">Secret</a>
+            </div>
+            <div class="copyright">
+                <p class="text-center">
+                    copyright © {{ date( 'Y' ) }} felix made me
+                </p>
             </div>
         </div>
     </div>
