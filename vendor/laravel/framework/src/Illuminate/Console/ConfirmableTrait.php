@@ -19,10 +19,10 @@ trait ConfirmableTrait
     {
         $callback = is_null($callback) ? $this->getDefaultConfirmCallback() : $callback;
 
-        $shouldConfirm = $callback instanceof Closure ? call_user_func($callback) : $callback;
+        $shouldConfirm = $callback instanceof Closure ? $callback() : $callback;
 
         if ($shouldConfirm) {
-            if ($this->option('force')) {
+            if ($this->hasOption('force') && $this->option('force')) {
                 return true;
             }
 
@@ -48,7 +48,7 @@ trait ConfirmableTrait
     protected function getDefaultConfirmCallback()
     {
         return function () {
-            return $this->getLaravel()->environment() == 'production';
+            return $this->getLaravel()->environment() === 'production';
         };
     }
 }
