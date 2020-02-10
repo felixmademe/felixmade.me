@@ -238,6 +238,7 @@
                         </div>
                         <form>
                             @csrf
+                            <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="name" placeholder="name..." required>
                             </div>

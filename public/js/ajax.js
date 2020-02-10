@@ -42,7 +42,7 @@ $(document).ready(function()
             dataType: 'json',
             success: function( data )
             {
-                console.log( data );
+                console.log(data)
                 $( "#alert p" ).text( data.result );
                 $( "form" )[0].reset();
                 $( "#alert" ).fadeIn( 400 );
@@ -50,8 +50,8 @@ $(document).ready(function()
             },
             error: function( data )
             {
-                console.log( data );
-                $( "#alert p" ).text( data.responseJSON );
+                console.log(data)
+                $( "#alert p" ).text( data.error );
                 $( "#alert" ).fadeIn( 400 );
             }
         });
