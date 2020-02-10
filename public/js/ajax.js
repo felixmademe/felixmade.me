@@ -17,6 +17,7 @@ $(document).ready(function()
         let text  = $( "textarea" ).val();
         let checkbox = $( "input[type=checkbox]" ).is( ":checked");
         let policy;
+        let recaptcha = $( "#recaptcha" ).val();
 
         if ( checkbox )
         {
@@ -38,11 +39,12 @@ $(document).ready(function()
                 email : email,
                 text  : text,
                 policy : policy,
+                recaptcha: recaptcha,
             },
             dataType: 'json',
             success: function( data )
             {
-                console.log(data)
+                //console.log(data)
                 $( "#alert p" ).text( data.result );
                 $( "form" )[0].reset();
                 $( "#alert" ).fadeIn( 400 );
