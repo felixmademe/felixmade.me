@@ -1,2 +1,3 @@
+sitemap: https://felixmade.me/sitemap.xml
 User-agent: *
-Disallow:
+Allow: /
