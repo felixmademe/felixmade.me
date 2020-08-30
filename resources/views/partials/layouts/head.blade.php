@@ -73,10 +73,10 @@
         })});
 </script>
 
-<script src='https://www.google.com/recaptcha/api.js?render={{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}&onload=onloadCallback&render=explicit'></script>
+<script src='https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&onload=onloadCallback&render=explicit'></script>
 <script>
     grecaptcha.ready(function() {
-        grecaptcha.execute( '{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}', { action: 'contactForm' } ).then( function( token )
+        grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactForm' } ).then( function( token )
         {
             if( token )
             {
