@@ -21,7 +21,7 @@ class ContactController extends Controller
 
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = [
-            'secret'   => env( 'GOOGLE_RECAPTCHA_SECRET' ),
+            'secret'   => config( 'recaptcha.key.secret' ),
             'response' => $request->recaptcha
         ];
 
