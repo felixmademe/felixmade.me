@@ -1,0 +1,43 @@
+.section {
+    width: 100vw;
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-of-type {
+        height: 100vh;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+        max-width: 800px;
+    }
+
+    &.start {
+        background-color: $red;
+        .content {
+            img {
+                max-width: 50%;
+            }
+            .header {
+
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section {
+        .content {
+            width: 100%;
+            display: block;
+            padding: 20px;
+        }
+    }
+}

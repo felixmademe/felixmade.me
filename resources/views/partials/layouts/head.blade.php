@@ -11,8 +11,8 @@
 <meta name="copyright" content="felix made me">
 <meta name="reply-to" content="hello@felixmade.me">
 <meta name="owner" content="felix made me">
-<meta name="url" content="http://www.felixmade.me">
-<meta name="identifier-URL" content="http://www.felixmade.me">
+<meta name="url" content="{{ config( 'app.url' ) }}">
+<meta name="identifier-URL" content="{{ config( 'app.url' ) }}">
 <meta name="coverage" content="Worldwide">
 <meta name="distribution" content="Global">
 <meta name="rating" content="General">
@@ -25,7 +25,7 @@
 <!-- Schema.org for Google -->
 <meta itemprop="name" content="felix made me">
 <meta itemprop="description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
-<meta itemprop="image" content="http://www.felixmade.me/img/Logo.png">
+<meta itemprop="image" content="{{ config( 'app.url' ) }}/img/Logo.png">
 <!-- Twitter -->
 <meta name="twitter:card" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
 <meta name="twitter:title" content="felix made me">
@@ -33,17 +33,19 @@
 <!-- Open Graph general (Facebook, Pinterest & Google+) -->
 <meta name="og:title" content="felix made me">
 <meta name="og:description" content="hi, my name is felix wetell and i am a fullstack developer and also a web designer">
-<meta name="og:image" content="http://www.felixmade.me/img/Logo.png">
-<meta name="og:url" content="http://www.felixmade.me">
+<meta name="og:image" content="{{ config( 'app.url' ) }}/img/Logo.png">
+<meta name="og:url" content="{{ config( 'app.url' ) }}">
 <meta name="og:site_name" content="felix made me">
 <meta name="og:locale" content="{{ str_replace('_', '-', app()->getLocale()) }}">
 <meta name="og:type" content="website">
 
-<title>felix made me - creative website solutions</title>
+<title>{{ config( 'app.name' ) }} - @yield( 'title' )</title>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ asset( 'img/favi/apple-touch-icon.png' ) }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ asset( 'img/favi/favicon-32x32.png' ) }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ asset( 'img/favi/favicon-16x16.png' ) }}">
 <link rel="manifest" href="{{ asset( 'img/favi/site.webmanifest' ) }}">
+
+<link rel="stylesheet" href="{{ asset( 'css/app.css' ) }}">
 
 <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
 <script>

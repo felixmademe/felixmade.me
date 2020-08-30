@@ -1,25 +1,25 @@
-<div id="alert" class="py-2">
+<div id="alert">
     <p></p>
 </div>
 <form>
     @csrf
     <input type="hidden" id="recaptcha" name="recaptcha" value="">
-    <div class="form-group">
-        <input type="text" class="form-control" name="name" placeholder="name..." required>
+    <div class="">
+        <input type="text" class="" name="name" placeholder="name..." required>
     </div>
-    <div class="form-group">
-        <input type="email" class="form-control" name="email" placeholder="email..." required>
+    <div class="">
+        <input type="email" class="" name="email" placeholder="email..." required>
     </div>
-    <div class="form-group">
-        <textarea class="form-control" rows="5" name="text" placeholder="message..." required></textarea>
+    <div class="">
+        <textarea class="" rows="5" name="text" placeholder="message..." required></textarea>
     </div>
-    <div class="form-group form-check">
-        <input type="checkbox" name="policy" required class="form-check-input">
-        <label class="form-check-label white">i have read and accept the
-            <a class="darkgrey" href="{{ route( 'policy' ) }}" target="_blank">
+    <div class="">
+        <input type="checkbox" name="policy" required class="">
+        <label class="">i have read and accept the
+            <a class="" href="{{ route( 'policy' ) }}" target="_blank">
                 privacy policy
             </a>
         </label>
     </div>
-    <button type="submit" class="btn btn-red" id="submit">submit</button>
+    <button type="submit" class="" id="submit">submit</button>
 </form>
