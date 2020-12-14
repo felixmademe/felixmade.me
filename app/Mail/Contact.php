@@ -38,6 +38,7 @@ class Contact extends Mailable
                     ->from( config('mail.from.address'), config('app.name') )
                     ->replyTo( $this->email, $this->name )
                     ->subject( 'new message via felixmade.me' )
+                    ->priority(2)
                     ->with([
                         'name'  => $this->name,
                         'email' => $this->email,
