@@ -37,9 +37,7 @@ class ContactController extends Controller
         $context = stream_context_create( $options );
         $result = file_get_contents( $url, false, $context );
         $json = json_decode( $result );
-
-        $json->success = true;
-
+        
         if( $json->success != true )
         {
             return response()->json( [ 'result' => 'reCAPTCHA error' ], 200);
