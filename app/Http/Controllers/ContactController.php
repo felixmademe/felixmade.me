@@ -43,7 +43,7 @@ class ContactController extends Controller
             return response()->json( [ 'result' => 'reCAPTCHA error' ], 200);
         }
 
-        Mail::to( config( 'mail.from.address' ) )
+        Mail::to( 'hello@felixmade.me' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
