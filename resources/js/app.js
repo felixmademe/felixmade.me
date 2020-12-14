@@ -1,2 +1,6 @@
-require('./components/contact');
+$(document).ready(function() {
 
+    require('./components/contact');
+    require('./components/dragscroll');
+
+});

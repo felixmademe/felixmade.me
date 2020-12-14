@@ -54,7 +54,7 @@
         <div class="content">
             <div class="block">
                 <h2 class="big center-text">recent projects</h2>
-                <div class="showcase">
+                <div class="showcase" id="showcase">
                     <a href="https://lindacarlstad.se" class="project"><img src="{{ asset('img/projects/lindacarlstad.png') }}" alt="Linda Carlstad"></a>
                     <a href="https://tentahub.lindacarlstad.se" class="project"><img src="{{ asset('img/projects/adminlindacarlstad.png') }}" alt="Tentahub Linda Carlstad"></a>
                     <a href="https://wetell.se" class="project"><img src="{{ asset('img/projects/wetell.png') }}" alt="Wetell"></a>

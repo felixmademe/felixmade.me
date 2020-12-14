@@ -1,5 +1,4 @@
 $( "#alert" ).hide();
-$(document).ready(function() {
     $("form").on("submit", function (e) {
         $("#alert").hide();
         $("#alert p").text("");
@@ -50,4 +49,3 @@ $(document).ready(function() {
                 }
             });
     });
-});

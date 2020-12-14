@@ -50,6 +50,8 @@ body {
 }
 
 .section .showcase {
+  cursor: -webkit-grab;
+  cursor: grab;
   overflow: auto;
   white-space: nowrap;
   max-width: 100vw;
