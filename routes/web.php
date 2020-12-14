@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('policy', function () {
+    return view('policy');
+})->name('policy');
+
+Route::post( '/contactForm', 'ContactController@contactForm' );
+
+Route::get('/mail', function () {
+    $name = 'Felix Wetell';
+    $email = 'felix.wetell@gmail.com';
+    $text = "Please save me";
+
+    return new App\Mail\Contact($name, $email, $text);
+});

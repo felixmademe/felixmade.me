@@ -1,0 +1,146 @@
+$transition: 0.4s;
+
+.group {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: $transition;
+}
+
+.group input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    transition-duration: $transition;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    transition-duration: $transition;
+}
+
+.group:hover input[type="checkbox"] ~ .checkmark {
+    background-color: $red;
+    transition-duration: $transition;
+}
+
+.group input[type="checkbox"]:checked ~ .checkmark {
+    background-color: $red;
+    transition-duration: $transition;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    transition-duration: $transition;
+}
+
+.group input[type="checkbox"]:checked ~ .checkmark:after {
+    display: block;
+    transition-duration: $transition;
+}
+
+.group .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition-duration: $transition;
+}
+
+.input, .textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 0.8em;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: $darkgrey;
+    max-width: 750px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    border-radius: 2px;
+    transition-duration: $transition;
+    -webkit-text-fill-color: $red;
+
+    /* Caret */
+    color: $green;
+    text-shadow: 0 0 0 #FFF;
+
+    &:hover, &:focus {
+        outline: none;
+        border-bottom: 2px solid $red;
+        transition-duration: $transition;
+    }
+
+    &::placeholder {
+        -webkit-text-fill-color: #b3b3b3;
+    }
+}
+
+.submit {
+    color: #FFFFFF;
+    font-weight: bolder;
+    background-color: $darkgrey;
+    border: 2px solid $red;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+    &:hover {
+        background-color: $green;
+        border: 2px solid $green;
+        color: #FFFFFF;
+        transition-duration: 0.2s;
+    }
+
+    &:focus {
+        border: 2px solid $green;
+        color: #FFFFFF;
+        transition-duration: 0.2s;
+    }
+}
+
+.label {
+    margin: 10px;
+
+    &.tiny {
+        font-size: 0.5em;
+    }
+}
+
+#alert {
+    display: none;
+    padding: 0 10px;
+    font-size: 0.8em;
+    font-style: italic;
+    border: $green solid 3px;
+    background-color: rgba( $green, 0.7 );
+
+    p {
+        opacity: 1;
+    }
+}

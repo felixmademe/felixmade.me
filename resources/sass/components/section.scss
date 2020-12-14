@@ -16,18 +16,32 @@
         align-items: center;
         width: 75%;
         max-width: 800px;
+
+        img {
+            max-width: 50%;
+        }
+
+        .block {
+            position: relative;
+            max-width: 1000px;
+        }
     }
 
-    &.start {
+    &#start {
         background-color: $red;
-        .content {
-            img {
-                max-width: 50%;
-            }
-            .header {
+    }
 
-            }
-        }
+    &#about {
+        background-color: $darkgrey;
+    }
+
+    &#projects {
+        background-color: white;
+        color: $darkgrey;
+    }
+
+    &#information {
+        background-color: $green;
     }
 }
 
@@ -38,6 +52,10 @@
             width: 100%;
             display: block;
             padding: 20px;
+
+            img {
+                max-width: 60%;
+            }
         }
     }
 }

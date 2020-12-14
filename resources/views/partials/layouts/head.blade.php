@@ -46,13 +46,28 @@
 <link rel="manifest" href="{{ asset( 'img/favi/site.webmanifest' ) }}">
 
 <link rel="stylesheet" href="{{ asset( 'css/app.css' ) }}">
+<script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script defer src="{{ asset( 'js/app.js' ) }}"></script>
+
+<script src='https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit'></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactForm' } ).then( function( token )
+        {
+            if( token )
+            {
+                document.getElementById( 'recaptcha' ).value = token;
+            }
+        });
+    });
+</script>
 
 <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
 <script>
     var galite = galite || {};
     galite.UA = 'UA-135535698-1';
 </script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
@@ -64,7 +79,7 @@
                 },
                 "button": {
                     "background": "#05C46B",
-                    "color": "#fff"
+                    "color": "#FFFFFF"
                 }
             },
             "content": {
@@ -73,17 +88,4 @@
                 "link": "learn more"
             }
         })});
-</script>
-
-<script src='https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&onload=onloadCallback&render=explicit'></script>
-<script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactForm' } ).then( function( token )
-        {
-            if( token )
-            {
-                document.getElementById( 'recaptcha' ).value = token;
-            }
-        });
-    });
 </script>

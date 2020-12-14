@@ -34,10 +34,10 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->view( 'mail.view' )
+        return $this->view( 'emails.mail' )
                     ->from( $this->email, $this->name )
                     ->replyTo( $this->email )
-                    ->subject( 'Contact form via felixmade.me' )
+                    ->subject( 'new message via felixmade.me' )
                     ->with([
                         'name'  => $this->name,
                         'email' => $this->email,

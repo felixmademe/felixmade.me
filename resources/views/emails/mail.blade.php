@@ -1,6 +1,10 @@
-<h1 class="green">{{ $name }}</h1>
-<a class="grey">{{ $email }}</a>
-<hr>
-<p class="grey">
-    {{ $text }}
-</p>
+@extends( 'layouts.email' )
+@section( 'content' )
+    <h1 class="name">{{ $name }}</h1>
+    <p>{{ $email }}</p>
+    <hr>
+    <p>
+        {!! $text !!}
+    </p>
+
+@endsection

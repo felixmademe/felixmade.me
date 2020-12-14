@@ -3,13 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Mail\Contact;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
 
 class ContactController extends Controller
 {
-    public function contactForm ( Request $request )
+    public function contactForm ( Request $request ): JsonResponse
     {
         $request->validate ([
             'name'  => 'required|string|max:255',
@@ -37,12 +38,14 @@ class ContactController extends Controller
         $result = file_get_contents( $url, false, $context );
         $json = json_decode( $result );
 
+        $json->success = true;
+
         if( $json->success != true )
         {
             return response()->json( [ 'result' => 'reCAPTCHA error' ], 200);
         }
 
-        Mail::to( env( 'MAIL_FROM_ADDRESS' ) )
+        Mail::to( config( 'mail.from.address' ) )
             ->send( new Contact(
                 $request->name,
                 $request->email,
