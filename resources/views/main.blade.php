@@ -65,7 +65,7 @@
                     <a href="https://fancythegame.com" class="project"><img src="{{ asset('img/projects/fancythegame.png') }}" alt="Kakelplattan / Kakelverktug / Flytspackel"></a>
                 </div>
                 <div class="center-text">
-                    <a class="link colour" href="https://github.com/felixmade.me">see more here</a>
+                    <a class="link colour" href="https://github.com/felixwetell">see more here</a>
                 </div>
             </div>
         </div>
