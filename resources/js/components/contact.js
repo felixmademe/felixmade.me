@@ -43,7 +43,7 @@ $( "#alert" ).hide();
                     $("#alert").delay(10000).fadeOut(400);
                 },
                 error: function (data) {
-                    console.log(data)
+                    //console.log(data)
                     $("#alert p").text(data.error);
                     $("#alert").fadeIn(400);
                 }
