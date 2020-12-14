@@ -22,3 +22,8 @@ body {
     min-height: 100vh;
     min-width: 100vw;
 }
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+}

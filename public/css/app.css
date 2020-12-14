@@ -14,6 +14,12 @@ body {
   min-width: 100vw;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
 .section {
   width: 100vw;
   height: 110vh;
@@ -30,7 +36,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 75%;
   max-width: 800px;
 }
 
@@ -41,6 +46,34 @@ body {
 .section .content .block {
   position: relative;
   max-width: 1000px;
+}
+
+.section .showcase {
+  overflow: auto;
+  white-space: nowrap;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  left: 50%;
+}
+
+.section .showcase .project {
+  display: inline;
+  text-align: center;
+  margin: 0 30px;
+  transition-duration: 0.2s;
+}
+
+.section .showcase .project:hover {
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
+}
+
+.section .showcase .project img {
+  width: 100%;
+  cursor: pointer;
 }
 
 .section#start {
@@ -69,6 +102,10 @@ body {
 
   .section .content img {
     max-width: 60%;
+  }
+
+  .section .content .showcase {
+    margin: 0;
   }
 }
 
@@ -300,10 +337,6 @@ small {
 }
 
 .input:-ms-input-placeholder, .textarea:-ms-input-placeholder {
-  -webkit-text-fill-color: #b3b3b3;
-}
-
-.input::-ms-input-placeholder, .textarea::-ms-input-placeholder {
   -webkit-text-fill-color: #b3b3b3;
 }
 

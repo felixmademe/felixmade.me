@@ -52,9 +52,21 @@
 
     <section class="section" id="projects">
         <div class="content">
-            <div class="block center-text">
-                <h2 class="big">recent projects</h2>
-                <p>will be added soon</p>
+            <div class="block">
+                <h2 class="big center-text">recent projects</h2>
+                <div class="showcase">
+                    <a href="https://lindacarlstad.se" class="project"><img src="{{ asset('img/projects/lindacarlstad.png') }}" alt="Linda Carlstad"></a>
+                    <a href="https://tentahub.lindacarlstad.se" class="project"><img src="{{ asset('img/projects/adminlindacarlstad.png') }}" alt="Tentahub Linda Carlstad"></a>
+                    <a href="https://wetell.se" class="project"><img src="{{ asset('img/projects/wetell.png') }}" alt="Wetell"></a>
+                    <a href="https://blog.wetell.se" class="project"><img src="{{ asset('img/projects/blogwetell.png') }}" alt="BLog Wetell"></a>
+                    <a href="https://caland.se" class="project"><img src="{{ asset('img/projects/caland.png') }}" alt="Caland"></a>
+                    <a href="https://acidfinance.com" class="project"><img src="{{ asset('img/projects/acidfinance.png') }}" alt="Acid Finance"></a>
+                    <a href="https://kakelverktyg.com" class="project"><img src="{{ asset('img/projects/kakelplattan.png') }}" alt="Kakelplattan / Kakelverktug / Flytspackel"></a>
+                    <a href="https://fancythegame.com" class="project"><img src="{{ asset('img/projects/fancythegame.png') }}" alt="Kakelplattan / Kakelverktug / Flytspackel"></a>
+                </div>
+                <div class="center-text">
+                    <a class="link colour" href="https://github.com/felixmade.me">see more here</a>
+                </div>
             </div>
         </div>
     </section>

@@ -14,7 +14,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 75%;
         max-width: 800px;
 
         img {
@@ -24,6 +23,34 @@
         .block {
             position: relative;
             max-width: 1000px;
+        }
+    }
+
+    .showcase {
+        overflow: auto;
+        white-space: nowrap;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        left: 50%;
+
+        .project {
+            display: inline;
+            text-align: center;
+            margin: 0 30px;
+            transition-duration: 0.2s;
+
+            &:hover {
+                filter: brightness(0.5);
+                transition-duration: 0.5s;
+            }
+
+            img {
+                width: 100%;
+                cursor: pointer;
+            }
         }
     }
 
@@ -55,6 +82,10 @@
 
             img {
                 max-width: 60%;
+            }
+
+            .showcase {
+                margin: 0;
             }
         }
     }
