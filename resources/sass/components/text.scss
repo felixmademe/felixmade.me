@@ -65,7 +65,12 @@ h4, h5, h6, p, a, li, label, small {
 
 
 @media only screen and (max-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
     .big {
+        font-size: 3em;
         margin-top: 0;
     }
 }
