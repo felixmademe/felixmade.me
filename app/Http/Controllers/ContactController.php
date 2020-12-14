@@ -38,6 +38,10 @@ class ContactController extends Controller
         $result = file_get_contents( $url, false, $context );
         $json = json_decode( $result );
 
+        if( config('app.env') != 'production' ) {
+            $json->success = true;
+        }
+
         if( $json->success != true )
         {
             return response()->json( [ 'result' => 'reCAPTCHA error' ], 200);
