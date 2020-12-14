@@ -52,7 +52,7 @@
 
     <section class="section" id="projects">
         <div class="content">
-            <div class="block">
+            <div class="">
                 <h2 class="big center-text">recent projects</h2>
                 <div class="showcase" id="showcase">
                     <a href="https://lindacarlstad.se" class="project"><img src="{{ asset('img/projects/lindacarlstad.png') }}" alt="Linda Carlstad"></a>

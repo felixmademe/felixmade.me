@@ -14,9 +14,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 75%;
-        max-width: 800px;
-
         img {
             max-width: 50%;
         }
@@ -67,6 +64,10 @@
     &#projects {
         background-color: white;
         color: $darkgrey;
+
+        &.content {
+            max-width: 100vw;
+        }
     }
 
     &#information {

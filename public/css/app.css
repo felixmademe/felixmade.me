@@ -36,8 +36,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 75%;
-  max-width: 800px;
 }
 
 .section .content img {
@@ -90,6 +88,10 @@ body {
 .section#projects {
   background-color: white;
   color: #1E272E;
+}
+
+.section#projects.content {
+  max-width: 100vw;
 }
 
 .section#information {
