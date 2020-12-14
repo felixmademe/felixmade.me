@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,24 +13,20 @@
 |
 */
 
-Route::get( '/', function ()
-{
-    return view( 'main' );
+Route::get('/', function () {
+    return view('main');
 });
 
-Route::get( '/index.php', function ()
-{
-    return Redirect::to( '/', 301 );
-});
-
-Route::get( '/secret', function ()
-{
-    return view( 'secret' );
-});
-
-Route::get( '/privacy-policy', function ()
-{
-    return view( 'policy' );
-})->name( 'policy' );
+Route::get('policy', function () {
+    return view('policy');
+})->name('policy');
 
 Route::post( '/contactForm', 'ContactController@contactForm' );
+
+Route::get('/mail', function () {
+    $name = 'Felix Wetell';
+    $email = 'felix.wetell@gmail.com';
+    $text = "Please save me";
+
+    return new App\Mail\Contact($name, $email, $text);
+});

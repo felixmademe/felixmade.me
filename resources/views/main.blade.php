@@ -1,304 +1,110 @@
-@extends( 'layout' )
+@extends( 'layouts.main' )
+@section( 'title', config( 'app.slogan' ) )
+
 @section( 'content' )
+    <section class="section" id="start">
+        <div class="content">
+            <div class="">
 
-    <div class="" id="fullpage">
-        <div class="section active hero">
-            <div class="container">
-                <div class="row">
-                    <div id="particles-js"></div>
-                    <div class="col-sm-2 mx-auto">
-                        <img src="{{ asset( '/img/logo-small-dark.svg' ) }}" alt="felix made me logo">
-                        <h1>
-                            felix
-                            <br>
-                            made
-                        </h1>
-                        <p>
-                            <span id="changing-text" class="green">me, this, one, what, who</span>
-                        </p>
-                    </div>
-                </div>
+            </div>
+            <img class="img" src="{{ asset( 'img/logo-small-dark.svg' ) }}" alt="{{ config( 'app.name' ) }} logo">
+            <div class="header">
+                <h1 class="big">hello</h1>
+                <h2 class="small">felix wetell here :)</h2>
             </div>
         </div>
-        <hr>
-        <div class="section intro">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 float-left">
-                        <h2 class="text-left">
-                            fullstack
-                            <br>
-                            <span class="green shake">developer</span>
-                        </h2>
-                    </div>
-                    <br><br>
-                    <div class="col-lg-6 offset-lg-6">
-                        <h2 class="text-right">
-                            web
-                            <br>
-                            <span class="red">designer</span>
-                        </h2>
-                    </div>
-                </div>
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <p class="text-center big">
-                            hi, my name is <span class="green">felix wetell</span> and i am a fullstack developer and also a web designer
-                            <br>
-                            i like to create solutions for <span class="red">people</span> that makes the everyday life easier and more fun
-                            <br>
-                            my designs strive for a minimalistic look, as they say, "less is more"
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section about">
-            <div class="container">
-                <div class="d-lg-flex flex-row">
-                    <div class="col-lg-6  d-lg-flex align-self-center">
-                        <h2>
-                            felix
-                            <br>
-                            <span>wetell</span>
-                        </h2>
-                    </div>
-                    <div class="col-lg-6 float-right d-lg-flex align-self-center">
-                        <p class="">
-                            based in <span class="grey">karlstad, sweden</span> where I am currently studying <span>web development</span>
-                            with focus on <span class="grey">web design</span>, <span class="grey">UX</span> and <span class="grey">user interactivity</span>
-                            <br>
-                            in my spare time i like to modify cars, race bikes and
-                            hit trails in the local woods with friends
-                        </p>
-                    </div>
-                </div>
-                <br><br>
-                <div class="row text-center">
-                    <div class="col-lg-6 offset-lg-3">
-                        <canvas id="skillsChart"></canvas>
+    </section>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section jobs">
-            <div class="container">
-                <div class="swiper-container swiper-jobs">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://acidfinance.com">
-                                            <p class="job-title">acid finance</p>
-                                        </a>
-                                        <p>
-                                            personal project that later was taken over by the company
-                                            to keep up the development,
-                                            acid finance helps you by visualising your incomes and expenses,
-                                            cut down unnecessary costs and save money
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://acidfinance.com">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/acidfinance.png' ) }}" alt="Acid Finance website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://fancythegame.com">
-                                            <p class="job-title">fancy the game</p>
-                                        </a>
-                                        <p>
-                                            school project that i kept developing and made it for
-                                            my own use, with a minimalistic design, one-click ui and
-                                            with a simple question game to get the user involved
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://fancythegame.com">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/fancythegame.png' ) }}" alt="Fancy The Game website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://lindacarlstad.se">
-                                            <p class="job-title">linda carlstad</p>
-                                        </a>
-                                        <p>
-                                            refreshed website for the university organisation linda carlstad
-                                            built in php using the framework laravel along with other
-                                            fellow students
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://new.lindacarlstad.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/lindacarlstad.png' ) }}" alt="Linda Carlstad new website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://jprodagarna.se">
-                                            <p class="job-title">JPRO</p>
-                                        </a>
-                                        <p>
-                                            website for an event about equality between genders, race, and more,
-                                            held at karlstads univeristy
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://jprodagarna.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/jpro.png' ) }}" alt="JPROdagarna website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://larardagenkau.se">
-                                            <p class="job-title">lärardagen kau</p>
-                                        </a>
-                                        <p>
-                                            website for an event for teacher students on
-                                            karlstad university, built with wordpress in the
-                                            highlight theme (later changed by client, not my design anymore)
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://larardagenkau.se">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/larardagenkau.png' ) }}" alt="lärardagen kau website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="d-lg-flex flex-row flex-lg-row-reverse align-content-stretch">
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <div>
-                                        <a href="https://felixwetell.azurewebsites.net">
-                                            <p class="job-title">felix wetell portfolio</p>
-                                        </a>
-                                        <p>
-                                            first portfolio i made when studying to become a "gymnasieingenjör"
-                                            and fullstack-developer, built with C# .NET as back-end support
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 d-lg-flex align-items-center">
-                                    <a href="https://felixwetell.azurewebsites.net">
-                                        <img class="swiper-img" data-src="{{ asset( '/img/felixwetell.png' ) }}" alt="Felix Wetell old portfolio">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-            </div>
-        </div>
-        <div class="section contact">
-            <div class="container">
-                <div class="d-lg-flex flex-row-reverse">
-                    <div class="col-lg-6 float-right d-lg-flex align-self-center justify-content-lg-end">
-                        <h3 class="text-lg-right">
-                            contact
-                            <br>
-                            <span>me</span>
-                        </h3>
-                    </div>
-                    <div class="col-lg-6 float-left pt-0 pt-lg-4">
-                        <div id="alert" class="py-2">
-                            <p></p>
-                        </div>
-                        <form>
-                            @csrf
-                            <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="name" placeholder="name..." required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" placeholder="email..." required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="5" name="text" placeholder="message..." required></textarea>
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" name="policy" required class="form-check-input">
-                                <label class="form-check-label white">i have read and accept the
-                                    <a class="darkgrey" href="{{ route( 'policy' ) }}" target="_blank">
-                                        privacy policy
-                                    </a>
-                                </label>
-                            </div>
-                            <button type="submit" class="btn btn-red" id="submit">submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section footer">
-            <div class="offset-md-3 col-md-6 justify-content-center">
-                <a href="https://twitter.com/felixwetell">
-                    <div class="media-box text-center">
-                        <img class="img-fluid" data-src="{{ asset( '/img/twitter.svg' ) }}" alt="White inverted Twitter logo">
-                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
-                            @felixwetell
-                        </span>
-                    </div>
-                </a>
-                <a href="https://github.com/felixwetell">
-                    <div class="media-box text-center">
-                        <img class="img-fluid" data-src="{{ asset( '/img/github.svg' ) }}" alt="White GitHub logo">
-                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
-                            @felixwetell
-                        </span>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/in/felix-wetell/">
-                    <div class="media-box text-center">
-                        <img class="img-fluid" data-src="{{ asset( '/img/linkedin.svg' ) }}" alt="White LinkedIn logo">
-                        <span class="d-none d-md-inline-block media-text align-middle pl-4">
-                            Felix Wetell
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <br>
-            <div class="text-center">
-                <a href="/secret" class="secret-link">Secret</a>
-            </div>
-            <div class="copyright">
-                <p class="text-center">
-                    copyright © {{ date( 'Y' ) }} felix made me
+    <section class="section" id="about">
+        <div class="content">
+            <div class="block">
+                <h2 class="big">this is me</h2>
+                <p class="text">
+                    hello, my name is felix wetell and i am a developer
+                    <br>
+                    i like creating creative web solutions and push my abilities as a developer
                 </p>
+                <hr>
+                <div>
+                    <h4>my skills</h4>
+                    <ul class="list">
+                        <li class="item">
+                            <p>web development</p>
+                            <small><i>(learning)</i></small>
+                        </li>
+                        <li class="item">
+                            <p>socialising</p>
+                            <small><i>(expanding)</i></small>
+                        </li>
+                        <li class="item">
+                            <p>project management</p>
+                            <small><i>(improving)</i></small>
+                        </li>
+                        <li class="item special">
+                            <p>dancing</p>
+                            <small><i>(don't even ask)</i></small>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section class="section" id="projects">
+        <div class="content">
+            <div class="block center-text">
+                <h2 class="big">recent projects</h2>
+                <p>will be added soon</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="content">
+            <div class="block">
+                <h3 class="big">message me</h3>
+                <div id="alert">
+                    <p>thank you for the message</p>
+                </div>
+                <form>
+                    @csrf
+                    <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
+
+                    <div class="organ">
+                        <label class="hidden" for="name">tell me your name</label>
+                        <input type="text" class="input" name="name" id="name" placeholder="tell me your name" required>
+                    </div>
+                    <div class="organ">
+                        <label class="hidden" for="email">where can i contact you?</label>
+                        <input type="email" class="input" name="email" id="email" placeholder="your email, so we can keep in touch" required>
+                    </div>
+                    <div class="organ">
+                        <label class="hidden" for="text">what do you want to tell me?</label>
+                        <textarea class="textarea" rows="3" name="text" id="text" placeholder="what do you want to tell me?" required></textarea>
+                    </div>
+                    <label class="group" for="policy">i have read and accept the
+                        <a class="link colour" href="{{ route( 'policy' ) }}" target="_blank">
+                            privacy policy
+                        </a>
+                        <input type="checkbox" name="policy" id="policy" required>
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <button type="submit" class="submit" id="submit">message me</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="information">
+        <div class="content">
+            <div class="block">
+                <h3 class="big">find me here</h3>
+                <a class="link" href="https://github.com/felixwetell">github</a>
+                - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
+                - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
+            </div>
+        </div>
+    </section>
 @endsection
+

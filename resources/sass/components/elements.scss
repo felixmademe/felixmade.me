@@ -1,0 +1,11 @@
+.divider {
+    width: 2px;
+    height: 30vh;
+    background-color: #b3b3b3;
+}
+
+@media only screen and (max-width: 768px) {
+    .divider {
+        display: none;
+    }
+}
