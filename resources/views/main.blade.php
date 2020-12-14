@@ -50,7 +50,10 @@
     <section class="section" id="projects">
         <div class="content">
             <div class="">
-                <h2 class="big center-text">recent projects</h2>
+                <div class="center-text">
+                    <h2 class="big">recent projects</h2>
+                    <p>(scroll for more)</p>
+                </div>
                 <div class="showcase" id="showcase">
                     <a href="https://lindacarlstad.se" class="project"><img src="{{ asset('img/projects/lindacarlstad.png') }}" alt="Linda Carlstad"></a>
                     <a href="https://tentahub.lindacarlstad.se" class="project"><img src="{{ asset('img/projects/adminlindacarlstad.png') }}" alt="Tentahub Linda Carlstad"></a>
