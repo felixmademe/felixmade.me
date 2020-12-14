@@ -4,9 +4,6 @@
 @section( 'content' )
     <section class="section" id="start">
         <div class="content">
-            <div class="">
-
-            </div>
             <img class="img" src="{{ asset( 'img/logo-small-dark.svg' ) }}" alt="{{ config( 'app.name' ) }} logo">
             <div class="header">
                 <h1 class="big">hello</h1>
