@@ -35,7 +35,7 @@ class Contact extends Mailable
     public function build()
     {
         return $this->view( 'emails.mail' )
-                    ->from( config('mail.from.adddress'), config('app.name') )
+                    ->from( config('mail.from.address'), config('app.name') )
                     ->replyTo( $this->email, $this->name )
                     ->subject( 'new message via felixmade.me' )
                     ->with([
