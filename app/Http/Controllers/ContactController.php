@@ -44,7 +44,7 @@ class ContactController extends Controller
 
         if( $json->success != true )
         {
-            return response()->json( [ 'result' => 'reCAPTCHA error' ], 200);
+            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
         }
 
         Mail::to( 'hello@felixmade.me' )
