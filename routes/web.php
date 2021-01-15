@@ -23,7 +23,7 @@ Route::get('policy', function () {
 
 Route::post( '/contactForm', 'ContactController@contactForm' );
 
-Route::get('/mail', function () {
+Route::get('/secret', function () {
     $name = 'Felix Wetell';
     $email = 'felix.wetell@gmail.com';
     $text = "Please save me";
