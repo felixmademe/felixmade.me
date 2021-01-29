@@ -30,3 +30,7 @@ Route::get('/secret', function () {
 
     return new App\Mail\Contact($name, $email, $text);
 })->name('secret');
+
+Route::get('games/recnuob', function () {
+    return view('games.recnuob.main');
+})->name('recnuob');
