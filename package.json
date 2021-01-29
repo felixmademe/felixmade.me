@@ -20,5 +20,7 @@
         "sass-loader": "^8.0.0",
         "vue-template-compiler": "^2.6.12"
     },
-    "dependencies": {}
+    "dependencies": {
+        "phaser": "^3.52.0"
+    }
 }
