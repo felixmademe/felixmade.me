@@ -58,6 +58,7 @@
                     @include('partials.components.project', [$link = 'lindacarlstad.se', $name = 'Linda Carlstad', $img = 'lindacarlstad'])
                     @include('partials.components.project', [$link = 'tentahub.lindacarlstad.se', $name = 'Tentahub Linda Carlstad', $img = 'tentahublindacarlstad'])
                     @include('partials.components.project', [$link = 'admin.lindacarlstad.se', $name = 'Admin Linda Carlstad', $img = 'adminlindacarlstad'])
+                    @include('partials.components.project', [$link = 'iampurelove.felixmade.me', $name = 'I am pure LOVE', $img = 'iampurelove'])
                     @include('partials.components.project', [$link = 'wetell.se', $name = 'Wetell', $img = 'wetell'])
                     @include('partials.components.project', [$link = 'blog.wetell.se', $name = 'Blog Wetell', $img = 'blogwetell'])
                     @include('partials.components.project', [$link = 'caland.se', $name = 'Caland', $img = 'caland'])
@@ -113,9 +114,10 @@
         <div class="content">
             <div class="block">
                 <h3 class="big">find me here</h3>
-                <a class="link" href="https://github.com/felixwetell">github</a>
+                - <a class="link" href="https://github.com/felixwetell">github</a>
                 - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
                 - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
+                - <a class="link colour" href="{{ route('secret') }}">secret</a>
             </div>
         </div>
     </section>
