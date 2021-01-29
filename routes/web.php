@@ -25,8 +25,8 @@ Route::post( '/contactForm', 'ContactController@contactForm' );
 
 Route::get('/secret', function () {
     $name = 'Felix Wetell';
-    $email = 'felix.wetell@gmail.com';
-    $text = "Please save me";
+    $email = config('mail.from.address');
+    $text = "please save me";
 
     return new App\Mail\Contact($name, $email, $text);
-});
+})->name('secret');
