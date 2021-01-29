@@ -7,7 +7,9 @@
                 <h1 class="big">@yield('message')</h1>
                 <h2 class="small">@yield('code')</h2>
                 <br>
-                <a class="link colour"  href="{{ route('start') }}">Go back?</a>
+                <a class="link colour"  href="{{ route('start') }}">go back?</a>
+                <br>
+                <a class="link secret" href="{{ route('secret') }}">secret</a>
             </div>
         </div>
     </section>
