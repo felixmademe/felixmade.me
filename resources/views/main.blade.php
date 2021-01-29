@@ -55,14 +55,15 @@
                     <p>(scroll for more)</p>
                 </div>
                 <div class="showcase" id="showcase">
-                    <a href="https://lindacarlstad.se" class="project"><img src="{{ asset('img/projects/lindacarlstad.png') }}" alt="Linda Carlstad"></a>
-                    <a href="https://tentahub.lindacarlstad.se" class="project"><img src="{{ asset('img/projects/adminlindacarlstad.png') }}" alt="Tentahub Linda Carlstad"></a>
-                    <a href="https://wetell.se" class="project"><img src="{{ asset('img/projects/wetell.png') }}" alt="Wetell"></a>
-                    <a href="https://blog.wetell.se" class="project"><img src="{{ asset('img/projects/blogwetell.png') }}" alt="BLog Wetell"></a>
-                    <a href="https://caland.se" class="project"><img src="{{ asset('img/projects/caland.png') }}" alt="Caland"></a>
-                    <a href="https://acidfinance.com" class="project"><img src="{{ asset('img/projects/acidfinance.png') }}" alt="Acid Finance"></a>
-                    <a href="https://kakelverktyg.com" class="project"><img src="{{ asset('img/projects/kakelplattan.png') }}" alt="Kakelplattan / Kakelverktug / Flytspackel"></a>
-                    <a href="https://fancythegame.com" class="project"><img src="{{ asset('img/projects/fancythegame.png') }}" alt="Kakelplattan / Kakelverktug / Flytspackel"></a>
+                    @include('partials.components.project', [$link = 'lindacarlstad.se', $name = 'Linda Carlstad', $img = 'lindacarlstad'])
+                    @include('partials.components.project', [$link = 'tentahub.lindacarlstad.se', $name = 'Tentahub Linda Carlstad', $img = 'tentahublindacarlstad'])
+                    @include('partials.components.project', [$link = 'admin.lindacarlstad.se', $name = 'Admin Linda Carlstad', $img = 'adminlindacarlstad'])
+                    @include('partials.components.project', [$link = 'wetell.se', $name = 'Wetell', $img = 'wetell'])
+                    @include('partials.components.project', [$link = 'blog.wetell.se', $name = 'Blog Wetell', $img = 'blogwetell'])
+                    @include('partials.components.project', [$link = 'caland.se', $name = 'Caland', $img = 'caland'])
+                    @include('partials.components.project', [$link = 'acidfinance.com', $name = 'Acid Finance', $img = 'acidfinance'])
+                    @include('partials.components.project', [$link = 'kakelverktyg.com', $name = 'Kakelplattan / Kakelverktug / Flytspackel', $img = 'kakelplattan'])
+                    @include('partials.components.project', [$link = 'fancythegame.com', $name = 'Fancy The Game', $img = 'fancythegame'])
                 </div>
                 <div class="center-text">
                     <a class="link colour" href="https://github.com/felixwetell">see more here</a>
