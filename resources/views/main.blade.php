@@ -73,6 +73,20 @@
         </div>
     </section>
 
+    <section class="section" id="games">
+        <div class="content">
+            <div class="center-text">
+                <h2 class="big">web games</h2>
+                <p>
+                    i have always wanted to make games
+                    <br>
+                    so i started to code some simple web games
+                </p>
+                <a class="link colour" href="{{ route('games') }}">play here</a>
+            </div>
+        </div>
+    </section>
+
     <section class="section" id="contact">
         <div class="content">
             <div class="block">
