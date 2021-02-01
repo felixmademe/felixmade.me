@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('main');
 })->name('start');
 
-Route::get('policy', function () {
+Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
 
