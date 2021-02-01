@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('main');
 })->name('start');
 
-Route::get('policy', function () {
+Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
 
@@ -32,10 +32,16 @@ Route::get('/secret', function () {
 })->name('secret');
 
 
-Route::get('games/recnuob', function () {
-    return view('games.recnuob.main');
-})->name('recnuob');
+Route::prefix('games')->group(function () {
+    Route::get('/', function () {
+        return view('games.index');
+    })->name('games');
 
-Route::get('games/tutorial', function () {
-    return view('games.tutorial.main');
-})->name('tutorial');
+    Route::get('/recnuob', function () {
+        return view('games.recnuob');
+    })->name('games.recnuob');
+
+    Route::get('/tutorial', function () {
+        return view('games.tutorial');
+    })->name('games.tutorial');
+});
