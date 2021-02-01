@@ -12,7 +12,7 @@
                     <div id="tutorial"></div>
                 </div>
                 <div class="center-text">
-                    <p><i>(best played on displays bigger than 800px wide)</i></p>
+                    <p><i>(does not work on displays less then 800px wide)</i></p>
                 </div>
             </div>
         </div>
@@ -25,12 +25,12 @@
                     <h2 class="big">description</h2>
                 </div>
                 <p>
-                    the game is built using phaser
+                    the game is built using <a class="link" href="https://phaser.io/">phaser</a>
                     <br>
                     this level is made using the tutorial provided on the phaser "get started" pages
                     (<a class="link" href="https://phaser.io/tutorials/making-your-first-phaser-3-game/part1/"><i>link</i></a>)
                     <br>
-                    first level designed and uploaded to this website
+                    first level designed and uploaded to this website, with some modifications to make it more unique
                     <br>
                     used to learn the basics of phaser and game development
                 </p>
