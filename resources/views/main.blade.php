@@ -82,7 +82,7 @@
                     <br>
                     so i started to code some simple web games
                 </p>
-                <a class="link colour" href="{{ route('games') }}">play here</a>
+                <a class="link" href="{{ route('games') }}">play here</a>
             </div>
         </div>
     </section>
