@@ -44,7 +44,7 @@
                 </p>
                 <hr>
                 <p>
-                    my high score is 330, can you beat it?
+                    my high score is 460, can you beat it?
                     <br>
                     send me an email with a screenshot of your high
                     score and i will give you something special
