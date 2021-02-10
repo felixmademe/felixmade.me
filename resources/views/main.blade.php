@@ -87,6 +87,10 @@
         </div>
     </section>
 
+    <section class="section" id="bio">
+
+    </section>
+
     <section class="section" id="contact">
         <div class="content">
             <div class="block">
