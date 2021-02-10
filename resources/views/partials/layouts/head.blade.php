@@ -101,3 +101,16 @@
             }
         })});
 </script>
+<script defer type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ProfessionalService",
+    "name": "felix made me",
+    "url": "https://felixmade.me/",
+    "address": "Signalhornsgatan 123, 656 34 Karlstad",
+    "sameAs": [
+      "https://www.linkedin.com/company/felixmademe/",
+      "https://www.github.com/felixmademe/"
+    ]
+  }
+</script>
