@@ -87,6 +87,45 @@
         </div>
     </section>
 
+    <section class="section" id="bio">
+        <div class="content">
+            <div class="block">
+                <h2 class="big center-text">my story</h2>
+                <p class="text">
+                    my first experience with coding was a long time back, i do not really remember actually
+                    <br>
+                    during high school the interest in web development was born, then
+                    i started to create projects in my spare time
+                    <br>
+                    i kept this passion for development to my time studying when at university,
+                    <a class="link underline" href="https://kau.se">karlstad university</a>
+                </p>
+                <p class="text">
+                    first big project was with the student association <a class="link underline" href="https://lindacarlstad.se">linda carlstad</a>
+                    and rebuilt the website with some friends in the same association
+                    <br>
+                    that project got out of control and i built a cms for that website,
+                    <a class="link underline" href="https://github.com/Linda-Carlstad/admin.lindacarlstad.se">admin linda carlstad</a> which can be found on
+                    <a class="link underline" href="https://github.com">github</a>
+                    <br>
+                    i built a couple of <a class="link underline" href="https://wordpress.com">wordpress</a> websites for different associations for free during the same time
+                    <br>
+                    the biggest project with <a class="link underline" href="https://lindacarlstad.se">linda carlstad</a> was a website
+                    called <a class="link underline" href="https://tentahub.lindacarlstad.se">tentahub</a> (<a class="link underline" href="https://github.com/Linda-Carlstad/tentahub.se">github</a>),
+                    a website where students upload old exams for other students to download and use as study help
+                </p>
+                <p class="text">
+                    <a class="link underline" href="{{ config('app.url') }}">felix made me</a> is my company i created back in january of 2019, also during university
+                    <br>
+                    customers include <a class="link underline" href="https://caland.se">caland</a>,
+                    <a class="link underline" href="https://flytspackel.com">kakelplattan</a> and more
+                    <br>
+                    i always strive for better solutions and i hope you want to, develop for the future and make useful solutions
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section class="section" id="contact">
         <div class="content">
             <div class="block">

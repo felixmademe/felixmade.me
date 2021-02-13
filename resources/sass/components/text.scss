@@ -54,6 +54,16 @@ h4, h5, h6, p, a, li, label, small {
     &.colour {
         color: #F53B57;
     }
+
+    &.underline {
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: $darkgrey;
+
+        &:hover {
+            color: $darkgrey;
+        }
+    }
 }
 
 .unselectable {
