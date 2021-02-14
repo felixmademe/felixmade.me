@@ -10,6 +10,9 @@
                 </div>
                 <div class="display-lg">
                     <div id="tutorial"></div>
+                    <div class="center-text">
+                        <p><i>(can only be played with a keyboard)</i></p>
+                    </div>
                 </div>
                 <div class="display center-text">
                     <p><i>(does not work on displays less then 800px wide)</i></p>
