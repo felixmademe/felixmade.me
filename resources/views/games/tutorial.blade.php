@@ -8,10 +8,10 @@
                 <div class="center-text">
                     <h1>tutorial</h1>
                 </div>
-                <div>
+                <div class="display-lg">
                     <div id="tutorial"></div>
                 </div>
-                <div class="center-text">
+                <div class="display center-text">
                     <p><i>(does not work on displays less then 800px wide)</i></p>
                 </div>
             </div>
