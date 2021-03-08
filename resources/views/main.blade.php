@@ -76,11 +76,11 @@
     <section class="section" id="games">
         <div class="content">
             <div class="center-text">
-                <h2 class="big">web games</h2>
+                <h2 class="big">games</h2>
                 <p>
                     i have always wanted to make games
                     <br>
-                    so i started to code some simple web games
+                    so i started to code some simple web games, and some other fun stuff
                 </p>
                 <a class="link" href="{{ route('games') }}">play here</a>
             </div>

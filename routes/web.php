@@ -33,9 +33,7 @@ Route::get('/secret', function () {
 
 
 Route::prefix('games')->group(function () {
-    Route::get('/', function () {
-        return view('games.index');
-    })->name('games');
+    Route::get('/', 'ShowGames')->name('games');
 
     Route::get('/recnuob', function () {
         return view('games.recnuob');
