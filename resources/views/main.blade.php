@@ -133,7 +133,7 @@
                 <div id="alert">
                     <p>thank you for the message</p>
                 </div>
-                <form>
+                <form id="contactForm">
                     @csrf
                     <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
 

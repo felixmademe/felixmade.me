@@ -1,5 +1,5 @@
 $( "#alert" ).hide();
-    $("form").on("submit", function (e) {
+    $("#contactForm").on("submit", function (e) {
         $("#alert").hide();
         $("#alert p").text("");
 
