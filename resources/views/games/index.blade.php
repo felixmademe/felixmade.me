@@ -27,7 +27,7 @@
                         name: <b class="hostname">minecraft.felixmade.me</b>
                         {{--hostname: <b class="hostname">{{ $server->hostname }}</b>--}}
                         <br>
-                        ping: <b class="ping {{ $server->ping < 60 ? 'good' : ($server->ping < 100 ? 'average' : 'poor') }}">{{ $server->ping }}</b>
+                        ping: <b class="ping {{ $server->ping < 100 ? 'good' : ($server->ping < 250 ? 'average' : 'poor') }}">{{ $server->ping }}</b>
                         <br>
                         players: <b class="players {{ $server->players == 0 ? 'empty' : ($server->players > 0 ? 'low' : ($server->players > 2 ? 'average' : 'full')) }}">{{ $server->players }}</b><b>/{{ $server->max_players }}</b>
                         <br>
