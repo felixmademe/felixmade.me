@@ -50,7 +50,7 @@
                     <br>
                 </p>
                 <p>
-                    server is whitelisted, send a email if you want to be added
+                    server is open for anyone, send a email or in-game message to get an op level
                 </p>
             </div>
         </div>
