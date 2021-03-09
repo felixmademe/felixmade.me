@@ -32,6 +32,9 @@ Route::get('/secret', function () {
 })->name('secret');
 
 
+Route::get('/board', 'ShowNotes')->name('board');
+Route::post('/board/post', 'CreateNote')->name('board.post');
+
 Route::prefix('games')->group(function () {
     Route::get('/', 'ShowGames')->name('games');
 
