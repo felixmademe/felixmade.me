@@ -7,7 +7,7 @@
             <img class="img" src="{{ asset( 'img/logo-small-dark.svg' ) }}" alt="{{ config( 'app.name' ) }} logo">
             <div class="header">
                 <h1 class="big">hello</h1>
-                <h2 class="small">felix wetell here :)</h2>
+                <h2 class="small">i am felix wetell</h2>
             </div>
         </div>
     </section>
