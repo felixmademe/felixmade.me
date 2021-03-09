@@ -7,7 +7,7 @@
             <img class="img" src="{{ asset( 'img/logo-small-dark.svg' ) }}" alt="{{ config( 'app.name' ) }} logo">
             <div class="header">
                 <h1 class="big">hello</h1>
-                <h2 class="small">felix wetell here :)</h2>
+                <h2 class="small">i am felix wetell</h2>
             </div>
         </div>
     </section>
@@ -76,11 +76,11 @@
     <section class="section" id="games">
         <div class="content">
             <div class="center-text">
-                <h2 class="big">web games</h2>
+                <h2 class="big">games</h2>
                 <p>
                     i have always wanted to make games
                     <br>
-                    so i started to code some simple web games
+                    so i started to code some simple web games, and some other fun stuff
                 </p>
                 <a class="link" href="{{ route('games') }}">play here</a>
             </div>
@@ -133,7 +133,7 @@
                 <div id="alert">
                     <p>thank you for the message</p>
                 </div>
-                <form>
+                <form id="contactForm">
                     @csrf
                     <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
 
@@ -159,6 +159,23 @@
                     </label>
                     <button type="submit" class="submit" id="submit">message me</button>
                 </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="board">
+
+        <div class="content">
+            <div class="center-text">
+                <h3 class="big">want to leave a thought?</h3>
+                <p>
+                    leave a note, a thought, a question
+                    <br>
+                    write down what ever you can think of at the moment
+                </p>
+                <p>
+                    <a class="link colour" href="{{ route('board') }}">lets go</a>
+                </p>
             </div>
         </div>
     </section>

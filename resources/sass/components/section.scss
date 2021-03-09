@@ -67,7 +67,7 @@
         background-color: $darkgrey;
     }
 
-    &#projects {
+    &#projects, &#board, &#minecraft {
         background-color: white;
         color: $darkgrey;
 
@@ -80,23 +80,11 @@
         background-color: $red;
     }
 
-    &#game {
-        background-color: $darkgrey;
-    }
-
-    &#games {
+    &#games, &#description {
         background-color: $red;
     }
 
-    &#description {
-        background-color: $red;
-    }
-
-    &#info {
-        background-color: $green;
-    }
-
-    &#bio {
+    &#bio, &#info {
         background-color: $green;
     }
 }

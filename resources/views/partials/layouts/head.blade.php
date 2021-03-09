@@ -39,7 +39,7 @@
 <meta name="og:locale" content="{{ str_replace('_', '-', app()->getLocale()) }}">
 <meta name="og:type" content="website">
 
-<title>{{ config( 'app.name' ) }} - @yield( 'title' )</title>
+<title>{{ config( 'app.name' ) }} - @yield( 'title', 'creative web solutions' )</title>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ asset( 'img/favi/apple-touch-icon.png' ) }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ asset( 'img/favi/favicon-32x32.png' ) }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ asset( 'img/favi/favicon-16x16.png' ) }}">
