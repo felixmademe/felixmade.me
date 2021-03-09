@@ -1,0 +1,37 @@
+.board {
+    height: 100vh;
+    width: calc(100vw - 60px);
+    background-color: white;
+    padding: 150px 30px 0;
+    margin: 0;
+    overflow-y: scroll;
+    color: $darkgrey;
+
+    .messages {
+
+    }
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: calc(100vw - 20px);
+    padding: 20px;
+    background-color: $darkgrey;
+
+    .input {
+        max-width: 1200px;
+        min-width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .board {
+        width: calc(100vw - 30px);
+        padding: 150px 15px 0;
+    }
+}
