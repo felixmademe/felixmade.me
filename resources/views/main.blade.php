@@ -23,7 +23,7 @@
                 </p>
                 <hr>
                 <div>
-                    <h4>my skills</h4>
+                    <h3>my skills</h3>
                     <ul class="list">
                         <li class="item">
                             <p>web development</p>
@@ -51,7 +51,7 @@
         <div class="content">
             <div class="">
                 <div class="center-text">
-                    <h2 class="big">recent projects</h2>
+                    <h3 class="big">recent projects</h3>
                     <p>(scroll for more)</p>
                 </div>
                 <div class="showcase" id="showcase">
@@ -76,7 +76,7 @@
     <section class="section" id="games">
         <div class="content">
             <div class="center-text">
-                <h2 class="big">games</h2>
+                <h3 class="big">games</h3>
                 <p>
                     i have always wanted to make games
                     <br>
@@ -90,7 +90,7 @@
     <section class="section" id="bio">
         <div class="content">
             <div class="block">
-                <h2 class="big center-text">my story</h2>
+                <h3 class="big center-text">my story</h3>
                 <p class="text">
                     my first experience with coding was a long time back, i do not really remember actually
                     <br>
