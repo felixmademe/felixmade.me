@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'note board')
+@section('title', 'thought space')
 @section('content')
 
         <form action="{{ route('board.post') }}" method="post">
@@ -11,7 +11,7 @@
                     <label class="hidden" for="message">write something</label>
                     <input type="text" class="input" name="message" id="message" placeholder="write something" required>
                 </div>
-                <button type="submit" class="submit" id="submit">message me</button>
+                <button type="submit" class="submit" id="submit">add thought</button>
             </div>
         </form>
 
