@@ -3,19 +3,19 @@
 
 @section( 'content' )
     <section class="policy">
-        <a href="{{ config('app.url') }}">← Go back</a>
+        <a href="{{ config('app.url') }}" title="{{ config('app.name') }} startpage">← Go back</a>
         <br>
         <h1>Privacy Policy</h1>
         <p>Effective date: December 11, 2020</p>
-        <p><i>{{ config('app.name') }}</i> ("us", "we", or "our") operates the <a href="{{ config('app.url') }}">{{ config('app.url') }}</a> website (hereinafter referred to as the "Service").</p>
+        <p><i>{{ config('app.name') }}</i> ("us", "we", or "our") operates the <a href="{{ config('app.url') }}" title="{{ config('app.name') }} startpage">{{ config('app.url') }}</a> website (hereinafter referred to as the "Service").</p>
         <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy is managed by the  for <i>{{ config('app.name') }}</i> is <a href="https://termsfeed.com/privacy-policy/generator/">the Privacy Policy Generator</a>.</p>
-        <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <a href="{{ config('app.url') }}">{{ config('app.url') }}</a></p>
+        <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <a href="{{ config('app.url') }}" title="{{ config('app.name') }} startpage">{{ config('app.url') }}</a></p>
         <hr>
         <h2>Definitions</h2>
         <ul>
             <li>
                 <p><strong>Service</strong></p>
-                <p>Service is the <a href="{{ config('app.url') }}">{{ config('app.url') }}</a> website operated by <i>{{ config('app.name') }}</i></p>
+                <p>Service is the <a href="{{ config('app.url') }}" title="{{ config('app.name') }} startpage" title="{{ config('app.name') }} startpage">{{ config('app.url') }}</a> website operated by <i>{{ config('app.name') }}</i></p>
             </li>
             <li>
                 <p><strong>Personal Data</strong></p>
