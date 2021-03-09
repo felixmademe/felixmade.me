@@ -20,7 +20,8 @@ class ShowNotes extends Controller
     public function __invoke(Request $request)
     {
         $notes = Note::all();
+        $notes = $notes->sortByDesc('created_at');
 
-        return view('board')->with('notes', $notes);
+        return view('board.index')->with('notes', $notes);
     }
 }

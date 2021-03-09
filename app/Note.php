@@ -18,7 +18,6 @@ class Note extends Model
      */
     protected $fillable = [
         'message',
-        'name',
         'public'
     ];
 
