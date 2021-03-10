@@ -15,7 +15,7 @@
     <section class="section" id="about">
         <div class="content">
             <div class="block">
-                <h2 class="big">this is me</h2>
+                <h3 class="big">this is me</h3>
                 <p class="text">
                     hello, my name is felix wetell and i am a developer
                     <br>
