@@ -54,9 +54,12 @@
     <link rel="stylesheet" href="{{ asset( 'css/app.css' ) }}">
 @endif
 
-<script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+@if( config('app.env') )
+    <script defer src="{{ mix( 'js/app.js' ) }}"></script>
+@else
+    <script defer src="{{ asset( 'js/app.js' ) }}"></script>
+@endif
+
 <script src='https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit'></script>
 
 <script defer>
@@ -84,9 +87,3 @@
     ]
   }
 </script>
-
-@if( config('app.env') )
-    <script defer src="{{ mix( 'js/app.js' ) }}"></script>
-@else
-    <script defer src="{{ asset( 'js/app.js' ) }}"></script>
-@endif
