@@ -13,6 +13,11 @@
         .message {
             padding: 2px 15px;
             margin: 50px 0;
+            transition-duration: 0.3s;
+
+            &:hover {
+                transition-duration: 0.3s;
+            }
         }
     }
 }
