@@ -46,6 +46,7 @@
 <link rel="manifest" href="{{ asset( 'img/favi/site.webmanifest' ) }}">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 
 @if( config('app.env') )
     <link rel="stylesheet" href="{{ mix( 'css/app.css' ) }}">
@@ -54,15 +55,11 @@
 @endif
 
 <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-@if( config('app.env') )
-    <script defer src="{{ mix( 'js/app.js' ) }}"></script>
-@else
-    <script defer src="{{ asset( 'js/app.js' ) }}"></script>
-@endif
-
+<script defer src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit'></script>
-<script>
+
+<script defer>
     grecaptcha.ready(function() {
         grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactForm' } ).then( function( token )
         {
@@ -74,33 +71,6 @@
     });
 </script>
 
-<script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
-<script>
-    var galite = galite || {};
-    galite.UA = 'UA-135535698-1';
-</script>
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#1E272E"
-                },
-                "button": {
-                    "background": "#05C46B",
-                    "color": "#FFFFFF"
-                }
-            },
-            "content": {
-                "message": "this website uses cookies to ensure you get the best experience on our website",
-                "dismiss": "got it",
-                "link": "learn more"
-            }
-        })});
-</script>
 <script defer type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -114,3 +84,9 @@
     ]
   }
 </script>
+
+@if( config('app.env') )
+    <script defer src="{{ mix( 'js/app.js' ) }}"></script>
+@else
+    <script defer src="{{ asset( 'js/app.js' ) }}"></script>
+@endif
