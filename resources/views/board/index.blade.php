@@ -10,6 +10,7 @@
                 <div class="organ">
                     <label class="hidden" for="message">write something</label>
                     <input type="text" class="input" name="message" id="message" placeholder="write something" required>
+                    <small class="">(only one message per hour)</small>
                 </div>
                 <button type="submit" class="submit" id="submit">add thought</button>
             </div>

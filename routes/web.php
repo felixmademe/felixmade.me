@@ -33,7 +33,8 @@ Route::get('/secret', function () {
 
 
 Route::get('/board', 'ShowNotes')->name('board');
-Route::post('/board/post', 'CreateNote')->name('board.post');
+Route::post('/board/post', 'CreateNote')->name('board.post')
+    ->middleware('throttle:1,60');
 
 Route::prefix('games')->group(function () {
     Route::get('/', 'ShowGames')->name('games');
