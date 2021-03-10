@@ -19,17 +19,16 @@
         <div class="messages">
             @foreach($notes as $note)
                 <div class="message">
-                    <p>
-                        <small>{{ Carbon\Carbon::parse( $note->created_at )->diffForHumans() }}</small>
+                    <p class="text">
+                        <small class="time">{{ Carbon\Carbon::parse( $note->created_at )->diffForHumans() }}</small>
                         <br>
                         {{ $note->message }}
                         @if($note->name)
                             <br>
-                            <small>by: {{ $note->name }}</small>
+                            <small class="name">by: {{ $note->name }}</small>
                         @endif
                     </p>
                 </div>
-                <br>
             @endforeach
         </div>
     </div>
