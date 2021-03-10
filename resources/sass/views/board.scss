@@ -33,11 +33,3 @@
         min-width: 50vw;
     }
 }
-
-@media only screen and (max-width: 768px) {
-    .board {
-        width: calc(100vw - 30px);
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-}
