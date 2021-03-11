@@ -21,6 +21,7 @@
 <link rel="canonical" href="{{ Request::url() }}">
 <link rel="home" href="{{ Request::url() }}">
 <link rel="alternate" hreflang="x-default" href="{{ Request::url() }}">
+<meta name="theme-color" content="#05C46B">
 
 <!-- Schema.org for Google -->
 <meta itemprop="name" content="felix made me">
