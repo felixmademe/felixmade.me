@@ -65,7 +65,7 @@
     grecaptcha.ready(function() {
         grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactForm' } ).then( function( token )
         {
-            if( token )
+            if( token && document.getElementById( 'recaptcha' ) )
             {
                 document.getElementById( 'recaptcha' ).value = token;
             }
