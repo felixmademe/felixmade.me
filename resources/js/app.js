@@ -4,6 +4,7 @@ $(document).ready(function() {
 
     require('ga-lite');
     require('cookieconsent');
+    require('lozad');
 
     require('./modules/analytics');
     require('./modules/consent');
