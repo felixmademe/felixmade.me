@@ -8,6 +8,13 @@ var filesToCache = [
     '/img/favi/apple-touch-icon.png',
     '/img/favi/favicon-16x16.png',
     '/img/favi/favicon-32x32.png',
+    '/img/favi/maskable_icon_x48.png',
+    '/img/favi/maskable_icon_x72.png',
+    '/img/favi/maskable_icon_x96.png',
+    '/img/favi/maskable_icon_x128.png',
+    '/img/favi/maskable_icon_x192.png',
+    '/img/favi/maskable_icon_x384.png',
+    '/img/favi/maskable_icon_x512.png',
 ];
 
 // Cache on install
