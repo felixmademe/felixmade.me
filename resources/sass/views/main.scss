@@ -1,0 +1,11 @@
+.section {
+    h1, h2, h3 {
+        text-shadow: 3px 3px $red;
+    }
+
+    &#games, &#information, &#bio, &#start {
+        h1, h2, h3 {
+            text-shadow: 3px 3px $darkgrey;
+        }
+    }
+}

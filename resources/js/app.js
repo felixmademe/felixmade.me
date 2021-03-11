@@ -7,6 +7,7 @@ $(document).ready(function() {
 
     require('./components/analytics');
     require('./components/consent');
+    require('./components/sw');
     require('./components/contact');
     require('./components/dragscroll');
     require('./components/board');

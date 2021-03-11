@@ -15,7 +15,7 @@
     <section class="section" id="about">
         <div class="content">
             <div class="block">
-                <h2 class="big">this is me</h2>
+                <h3 class="big">this is me</h3>
                 <p class="text">
                     hello, my name is felix wetell and i am a developer
                     <br>
@@ -185,8 +185,9 @@
             <div class="block">
                 <h3 class="big">find me here</h3>
                 - <a class="link" href="https://github.com/felixwetell">github</a>
-                - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
+                - <a class="link" href="https://blog.wetell.se">blog</a>
                 - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
+                - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
                 - <a class="link colour" href="{{ route('secret') }}">secret</a>
             </div>
         </div>
