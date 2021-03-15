@@ -58,7 +58,7 @@
                     @include('partials.components.project', [$link = 'lindacarlstad.se', $name = 'Linda Carlstad', $img = 'lindacarlstad'])
                     @include('partials.components.project', [$link = 'tentahub.lindacarlstad.se', $name = 'Tentahub Linda Carlstad', $img = 'tentahublindacarlstad'])
                     @include('partials.components.project', [$link = 'admin.lindacarlstad.se', $name = 'Admin Linda Carlstad', $img = 'adminlindacarlstad'])
-                    @include('partials.components.project', [$link = 'iampurelove.felixmade.me', $name = 'I am pure LOVE', $img = 'iampurelove'])
+                    @include('partials.components.project', [$link = 'iampurelove.se', $name = 'I am pure LOVE', $img = 'iampurelove'])
                     @include('partials.components.project', [$link = 'wetell.se', $name = 'Wetell', $img = 'wetell'])
                     @include('partials.components.project', [$link = 'blog.wetell.se', $name = 'Blog Wetell', $img = 'blogwetell'])
                     @include('partials.components.project', [$link = 'caland.se', $name = 'Caland', $img = 'caland'])
