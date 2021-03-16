@@ -94,8 +94,7 @@ if (window.location.href.indexOf('board') > -1) {
                 },
                 error: function (data) {
                     // Handle if error
-                    console.log(data);
-                    let error = data['statusText'].toLowerCase();
+                    let error = data['responseJSON']['message'].toLowerCase();
                     let errorText = $('<p>' + error + '</p>')
                     $('#popup').append(errorText);
                     $("#popup").fadeIn(400).delay(10000).fadeOut(400);
