@@ -25,7 +25,6 @@
     </div>
 
     <div id="popup">
-        <p></p>
     </div>
 
 @endsection
