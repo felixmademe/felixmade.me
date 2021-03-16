@@ -69,6 +69,9 @@ if (window.location.href.indexOf('board') > -1) {
         let status = $("#public").val();
         let message = $("#message").val();
 
+        $('#popup').hide();
+
+
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -91,6 +94,11 @@ if (window.location.href.indexOf('board') > -1) {
                 },
                 error: function (data) {
                     // Handle if error
+                    console.log(data);
+                    let error = data['statusText'].toLowerCase();
+                    let errorText = $('<p>' + error + '</p>')
+                    $('#popup').append(errorText);
+                    $("#popup").fadeIn(400).delay(10000).fadeOut(400);
                 }
             });
     });
