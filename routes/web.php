@@ -34,7 +34,8 @@ Route::get('/secret', function () {
 
 Route::get('/board', 'ShowNotes')->name('board');
 if(config('app.env') === 'local') {
-    Route::post('/board/post', 'CreateNote')->name('board.post');
+    Route::post('/board/post', 'CreateNote')->name('board.post')
+    ->middleware('throttle:1,5');
 } else {
     Route::post('/board/post', 'CreateNote')->name('board.post')
         ->middleware('throttle:1,60');

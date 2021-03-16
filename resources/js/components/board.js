@@ -60,17 +60,17 @@ function setHoverEffect(message) {
     }, false);
 }
 
+
 if (window.location.href.indexOf('board') > -1) {
     $("#boardForm").on("submit", function (e) {
         e.preventDefault();
         e.stopPropagation();
 
+        $('#popup').hide().empty();
+
         let recaptcha = $("#recaptcha").val();
         let status = $("#public").val();
         let message = $("#message").val();
-
-        $('#popup').hide();
-
 
         $.ajaxSetup({
             headers: {
@@ -94,11 +94,15 @@ if (window.location.href.indexOf('board') > -1) {
                 },
                 error: function (data) {
                     // Handle if error
+                    let popup = $('#popup');
                     let error = data['responseJSON']['message'].toLowerCase();
                     error = error.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ');
                     let errorText = $('<p>' + error + '</p>')
-                    $('#popup').append(errorText);
-                    $("#popup").fadeIn(400).delay(10000).fadeOut(400);
+                    popup.append(errorText);
+                    popup.fadeIn(400)
+                    setTimeout(function() {
+                        popup.fadeOut(400);
+                    }, 5000);
                 }
             });
     });
