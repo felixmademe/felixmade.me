@@ -95,6 +95,7 @@ if (window.location.href.indexOf('board') > -1) {
                 error: function (data) {
                     // Handle if error
                     let error = data['responseJSON']['message'].toLowerCase();
+                    error.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ');
                     let errorText = $('<p>' + error + '</p>')
                     $('#popup').append(errorText);
                     $("#popup").fadeIn(400).delay(10000).fadeOut(400);
