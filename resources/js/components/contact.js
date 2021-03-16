@@ -36,14 +36,12 @@ $( "#alert" ).hide();
                     },
                 dataType: 'json',
                 success: function (data) {
-                    //console.log(data)
                     $("#alert p").text(data.result);
                     $("#contactForm")[0].reset();
                     $("#alert").fadeIn(400);
                     $("#alert").delay(10000).fadeOut(400);
                 },
                 error: function (data) {
-                    //console.log(data)
                     $("#alert p").text(data.error);
                     $("#alert").fadeIn(400);
                 }

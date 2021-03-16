@@ -10,8 +10,6 @@ if (window.location.href.indexOf('board') > -1) {
 }
 
 function setsColour(message) {
-    //console.log(message);
-
     let colours = ['#05C46B', '#F53B57', '#1E272E', '#FFF'];
     let colour, colourText, boxShadowColour, colourBorder, mes;
 
@@ -90,12 +88,9 @@ if (window.location.href.indexOf('board') > -1) {
                 success: function (data) {
                     $("#boardForm")[0].reset();
                     createMessage(data['data']);
-                    console.log('success')
-                    console.log(data)
                 },
                 error: function (data) {
-                    console.log('fail')
-                    console.log(data)
+                    // Handle if error
                 }
             });
     });
@@ -116,6 +111,4 @@ function createMessage(data) {
     message = message[0];
     setsColour(message);
     setHoverEffect(message);
-
-    console.log(message)
 }
