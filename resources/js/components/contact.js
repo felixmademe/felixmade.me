@@ -38,7 +38,7 @@ $( "#alert" ).hide();
                 success: function (data) {
                     //console.log(data)
                     $("#alert p").text(data.result);
-                    $("form")[0].reset();
+                    $("#contactForm")[0].reset();
                     $("#alert").fadeIn(400);
                     $("#alert").delay(10000).fadeOut(400);
                 },

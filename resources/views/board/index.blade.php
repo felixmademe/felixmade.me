@@ -2,7 +2,7 @@
 @section('title', 'thought space')
 @section('content')
 
-        <form action="{{ route('board.post') }}" method="post">
+        <form id="boardForm">
             @csrf
             <input type="hidden" id="recaptcha" name="recaptcha" value="{{ env( 'GOOGLE_RECAPTCHA_KEY' ) }}">
             <input type="hidden" name="public" id="public" value="1" required>
@@ -19,17 +19,7 @@
     <div class="board">
         <div class="messages">
             @foreach($notes as $note)
-                <div class="message">
-                    <p class="text">
-                        <small class="time">{{ Carbon\Carbon::parse( $note->created_at )->diffForHumans() }}</small>
-                        <br>
-                        {{ $note->message }}
-                        @if($note->name)
-                            <br>
-                            <small class="name">by: {{ $note->name }}</small>
-                        @endif
-                    </p>
-                </div>
+                @include('partials.components.message', $note)
             @endforeach
         </div>
     </div>
