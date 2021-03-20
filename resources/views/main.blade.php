@@ -55,6 +55,7 @@
                     <p>(scroll for more)</p>
                 </div>
                 <div class="showcase" id="showcase">
+                    @include('partials.components.project', [$link = 'felixmade.me', $name = 'felix made me portfolio', $img = 'felixmademe'])
                     @include('partials.components.project', [$link = 'lindacarlstad.se', $name = 'Linda Carlstad', $img = 'lindacarlstad'])
                     @include('partials.components.project', [$link = 'tentahub.lindacarlstad.se', $name = 'Tentahub Linda Carlstad', $img = 'tentahublindacarlstad'])
                     @include('partials.components.project', [$link = 'admin.lindacarlstad.se', $name = 'Admin Linda Carlstad', $img = 'adminlindacarlstad'])
