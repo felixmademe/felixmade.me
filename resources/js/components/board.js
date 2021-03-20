@@ -66,7 +66,9 @@ if (window.location.href.indexOf('board') > -1) {
         e.preventDefault();
         e.stopPropagation();
 
-        $('#popup').hide().empty();
+        let popup = $('#popup');
+
+        popup.hide().empty();
 
         let recaptcha = $("#recaptcha").val();
         let status = $("#public").val();
@@ -93,11 +95,10 @@ if (window.location.href.indexOf('board') > -1) {
                     createMessage(data['data']);
                 },
                 error: function (data) {
-                    // Handle if error
-                    let popup = $('#popup');
                     let error = data['responseJSON']['message'].toLowerCase();
                     error = error.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ');
                     let errorText = $('<p>' + error + '</p>')
+
                     popup.append(errorText);
                     popup.fadeIn(400)
                     setTimeout(function() {
