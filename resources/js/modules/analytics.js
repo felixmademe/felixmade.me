@@ -1,2 +1,7 @@
-let galite = galite || {};
-galite.UA = 'UA-135535698-1';
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'AW-741031117');
