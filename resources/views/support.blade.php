@@ -23,7 +23,7 @@
                     <p>here are some links and other resources, any help is so much appreciated</p>
                     <ul class="list">
                         <li class="item dark">
-                            <p>digital ocean</p>
+                            <p>digital ocean - <i><small>free credits for new users</small></i></p>
                             <small>
                                 <i>
                                     <a class="submit" href="https://m.do.co/c/6f184dbebb06" target="_blank">
@@ -33,17 +33,17 @@
                             </small>
                         </li>
                         <li class="item dark">
-                            <p>paypal</p>
+                            <p>paypal - <i><small>buy me a drink</small></i></p>
                             <small>
                                 <i>
                                     <a class="submit" href="https://www.paypal.com/biz/fund?id=XLLHJZFGASCWN" target="_blank">
-                                        donation link
+                                        direct link
                                     </a>
                                 </i>
                             </small>
                         </li>
                         <li class="item dark">
-                            <p>vimla</p>
+                            <p>vimla - <i><small>cheaper phone service</small></i></p>
                             <small>
                                 <i>
                                     <a class="submit" href="https://vimla.se/bestall/vimla-valet/valj-data?201803241835081450" target="_blank">
