@@ -21,6 +21,10 @@ Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
 
+Route::get('/support', function () {
+    return view('support');
+})->name('support');
+
 Route::post( '/contactForm', 'ContactController@contactForm' );
 
 Route::get('/secret', function () {

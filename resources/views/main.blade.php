@@ -189,6 +189,7 @@
                 - <a class="link" href="https://blog.wetell.se">blog</a>
                 - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
                 - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
+                - <a class="link" href="{{ route('support') }}">support me</a>
                 - <a class="link colour" href="{{ route('secret') }}">secret</a>
             </div>
         </div>

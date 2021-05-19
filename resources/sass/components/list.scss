@@ -18,5 +18,10 @@
         &.special {
             background-color: $red;
         }
+
+        &.dark {
+            background-color: $darkgrey;
+            color: white;
+        }
     }
 }
