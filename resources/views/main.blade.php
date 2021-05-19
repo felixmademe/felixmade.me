@@ -184,7 +184,7 @@
     <section class="section" id="information">
         <div class="content">
             <div class="block">
-                <h3 class="big center-text">find me here</h3>
+                <h3 class="big">find me here</h3>
                 - <a class="link" href="https://github.com/felixwetell">github</a>
                 - <a class="link" href="https://blog.wetell.se">blog</a>
                 - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
