@@ -48,15 +48,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-@if( config('app.env') )
+@if( config('app.env') == 'production' )
     <link rel="stylesheet" href="{{ mix( 'css/app.css' ) }}">
-@else
-    <link rel="stylesheet" href="{{ asset( 'css/app.css' ) }}">
-@endif
-
-@if( config('app.env') )
     <script defer src="{{ mix( 'js/app.js' ) }}"></script>
 @else
+    <link rel="stylesheet" href="{{ asset( 'css/app.css' ) }}">
     <script defer src="{{ asset( 'js/app.js' ) }}"></script>
 @endif
 
@@ -79,7 +75,7 @@
     "@type": "ProfessionalService",
     "name": "felix made me",
     "url": "https://felixmade.me/",
-    "address": "Signalhornsgatan 123, 656 34 Karlstad",
+    "address": "Signalhornsgatan 124, 656 34 Karlstad",
     "sameAs": [
       "https://www.linkedin.com/company/felixmademe/",
       "https://www.github.com/felixmademe/"
