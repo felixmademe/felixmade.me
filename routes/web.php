@@ -25,6 +25,10 @@ Route::get('/support', function () {
     return view('support');
 })->name('support');
 
+Route::get('/vacation', function () {
+    return view('vacation');
+})->name('vacation');
+
 Route::post( '/contactForm', 'ContactController@contactForm' );
 
 Route::get('/secret', function () {
