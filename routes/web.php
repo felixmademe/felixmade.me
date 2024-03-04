@@ -38,15 +38,3 @@ Route::get('/secret', function () {
 
     return new App\Mail\Contact($name, $email, $text);
 })->name('secret');
-
-Route::prefix('games')->group(function () {
-    Route::get('/', 'ShowGames')->name('games');
-
-    Route::get('/recnuob', function () {
-        return view('games.recnuob');
-    })->name('games.recnuob');
-
-    Route::get('/tutorial', function () {
-        return view('games.tutorial');
-    })->name('games.tutorial');
-});
