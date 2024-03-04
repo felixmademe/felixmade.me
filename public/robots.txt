@@ -1,2 +1,4 @@
+Sitemap: https://felixmade.me/sitemap.xml
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /secret
