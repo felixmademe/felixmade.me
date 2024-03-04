@@ -1,0 +1,91 @@
+h1, h2, h3 {
+    font-family: 'Raleway', Arial, sans-serif;
+    cursor: default;
+}
+
+h4, h5, h6, p, a, li, label, small {
+    font-family: 'Roboto', Arial, sans-serif;
+    cursor: default;
+}
+
+.big {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.small {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.light {
+    color: #FFFFFF;
+
+    &:hover {
+        color: darken( $link, 30% );
+    }
+}
+
+.dark {
+    color: $darkgrey;
+
+    &:hover {
+        color: lighten( $darkgrey, 30% );
+    }
+}
+
+.link {
+    color: $darkgrey;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.2s;
+
+    &:hover {
+        text-decoration: underline;
+        transition-duration: 0.2s;
+    }
+
+    &.colour {
+        color: #F53B57;
+    }
+
+    &.white {
+        color: white;
+    }
+
+    &.underline {
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: $darkgrey;
+
+        &:hover {
+            color: $darkgrey;
+        }
+    }
+}
+
+.unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
+    .big {
+        font-size: 3em;
+        margin-top: 0;
+    }
+}
+
