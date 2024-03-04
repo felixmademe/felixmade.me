@@ -39,17 +39,6 @@ Route::get('/secret', function () {
     return new App\Mail\Contact($name, $email, $text);
 })->name('secret');
 
-
-Route::get('/board', 'ShowNotes')->name('board');
-if(config('app.env') === 'local') {
-    Route::post('/board/post', 'CreateNote')->name('board.post')
-    ->middleware('throttle:1,5');
-} else {
-    Route::post('/board/post', 'CreateNote')->name('board.post')
-        ->middleware('throttle:1,60');
-}
-
-
 Route::prefix('games')->group(function () {
     Route::get('/', 'ShowGames')->name('games');
 

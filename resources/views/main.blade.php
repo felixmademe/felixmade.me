@@ -164,23 +164,6 @@
         </div>
     </section>
 
-    <section class="section" id="board">
-
-        <div class="content">
-            <div class="center-text">
-                <h3 class="big">want to leave a thought?</h3>
-                <p>
-                    leave a note, a thought, a question
-                    <br>
-                    write down what ever you can think of at the moment
-                </p>
-                <p>
-                    <a class="link colour" href="{{ route('board') }}">lets go</a>
-                </p>
-            </div>
-        </div>
-    </section>
-
     <section class="section" id="information">
         <div class="content">
             <div class="block">
