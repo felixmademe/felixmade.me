@@ -20,18 +20,8 @@
             <div class="center-text">
                 <h2 class="big">links</h2>
                 <div>
-                    <p>here are some links and other resources, any help is so much appreciated</p>
+                    <p>here are some links and other resources, any help is appreciated</p>
                     <ul class="list">
-                        <li class="item dark">
-                            <p>digital ocean - <i><small>free credits for new users</small></i></p>
-                            <small>
-                                <i>
-                                    <a class="submit" href="https://m.do.co/c/6f184dbebb06" target="_blank">
-                                        referral link
-                                    </a>
-                                </i>
-                            </small>
-                        </li>
                         <li class="item dark">
                             <p>paypal - <i><small>buy me a drink</small></i></p>
                             <small>
@@ -42,20 +32,10 @@
                                 </i>
                             </small>
                         </li>
-                        <li class="item dark">
-                            <p>vimla - <i><small>cheaper phone service</small></i></p>
-                            <small>
-                                <i>
-                                    <a class="submit" href="https://vimla.se/bestall/vimla-valet/valj-data?201803241835081450" target="_blank">
-                                        referral link
-                                    </a>
-                                </i>
-                            </small>
-                        </li>
                     </ul>
                 </div>
                 <p>
-                    <i>not able to able to help out financially, see below</i>
+                    <i>if not able to able to help out financially, see below</i>
                 </p>
             </div>
         </div>
@@ -68,12 +48,10 @@
                 <p>
                     if you want to support me but not financially, you can still help out by just send
                     <br>
-                    be some encouraging words or add some kind words to the thought board
+                    some encouraging words
                 </p>
                 -
                 <a class="link" href="{{ url('/') }}#contact">contact me</a>
-                -
-                <a class="link" href="{{ route('board') }}#contact">thought board</a>
                 -
             </div>
         </div>

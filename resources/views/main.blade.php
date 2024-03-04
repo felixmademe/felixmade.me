@@ -39,7 +39,7 @@
                         </li>
                         <li class="item special">
                             <p>dancing</p>
-                            <small><i>(don't even ask)</i></small>
+                            <small><i>(do not ask)</i></small>
                         </li>
                     </ul>
                 </div>
@@ -55,35 +55,19 @@
                     <p>(scroll for more)</p>
                 </div>
                 <div class="showcase" id="showcase">
-                    @include('partials.components.project', [$link = 'felixmade.me', $name = 'felix made me portfolio', $img = 'felixmademe'])
+                    @include('partials.components.project', [$link = 'caland.se', $name = 'Caland', $img = 'caland'])
                     @include('partials.components.project', [$link = 'lindacarlstad.se', $name = 'Linda Carlstad', $img = 'lindacarlstad'])
                     @include('partials.components.project', [$link = 'tentahub.lindacarlstad.se', $name = 'Tentahub Linda Carlstad', $img = 'tentahublindacarlstad'])
                     @include('partials.components.project', [$link = 'admin.lindacarlstad.se', $name = 'Admin Linda Carlstad', $img = 'adminlindacarlstad'])
-                    @include('partials.components.project', [$link = 'iampurelove.se', $name = 'I am pure LOVE', $img = 'iampurelove'])
-                    @include('partials.components.project', [$link = 'wetell.se', $name = 'Wetell', $img = 'wetell'])
                     @include('partials.components.project', [$link = 'blog.wetell.se', $name = 'Blog Wetell', $img = 'blogwetell'])
-                    @include('partials.components.project', [$link = 'caland.se', $name = 'Caland', $img = 'caland'])
-                    @include('partials.components.project', [$link = 'acidfinance.com', $name = 'Acid Finance', $img = 'acidfinance'])
                     @include('partials.components.project', [$link = 'kakelverktyg.com', $name = 'Kakelplattan / Kakelverktug / Flytspackel', $img = 'kakelplattan'])
-                    @include('partials.components.project', [$link = 'fancythegame.com', $name = 'Fancy The Game', $img = 'fancythegame'])
+                    @include('partials.components.project', [$link = 'github.com/felixmademe/acidfinance.com', $name = 'Acid Finance', $img = 'acidfinance'])
+                    @include('partials.components.project', [$link = 'github.com/felixmademe/fancythegame.com', $name = 'Fancy The Game', $img = 'fancythegame'])
+                    <!-- @include('partials.components.project', [$link = 'github.com/felixmademe/wetell.se', $name = 'Wetell', $img = 'wetell']) -->
                 </div>
                 <div class="center-text">
                     <a class="link colour" href="https://github.com/felixwetell">see more here</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="games">
-        <div class="content">
-            <div class="center-text">
-                <h3 class="big">games</h3>
-                <p>
-                    i have always wanted to make games
-                    <br>
-                    so i started to code some simple web games, and some other fun stuff
-                </p>
-                <a class="link" href="{{ route('games') }}">play here</a>
             </div>
         </div>
     </section>
@@ -164,30 +148,12 @@
         </div>
     </section>
 
-    <section class="section" id="board">
-
-        <div class="content">
-            <div class="center-text">
-                <h3 class="big">want to leave a thought?</h3>
-                <p>
-                    leave a note, a thought, a question
-                    <br>
-                    write down what ever you can think of at the moment
-                </p>
-                <p>
-                    <a class="link colour" href="{{ route('board') }}">lets go</a>
-                </p>
-            </div>
-        </div>
-    </section>
-
     <section class="section" id="information">
         <div class="content">
             <div class="block">
                 <h3 class="big">find me here</h3>
                 - <a class="link" href="https://github.com/felixwetell">github</a>
                 - <a class="link" href="https://blog.wetell.se">blog</a>
-                - <a class="link" href="https://twitter.com/felixwetell">twitter</a>
                 - <a class="link" href="https://www.linkedin.com/in/felix-wetell/">linkedin</a>
                 - <a class="link" href="{{ route('support') }}">support me</a>
                 - <a class="link colour" href="{{ route('secret') }}">secret</a>
@@ -195,4 +161,3 @@
         </div>
     </section>
 @endsection
-
