@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Note;
+use App\Models\Note;
 use Carbon\Carbon;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
